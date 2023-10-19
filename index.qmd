@@ -1,0 +1,27 @@
+---
+title: "2023-2024 Schedule"
+---
+
+### Theme 1: Machine Learning
+
+| Date          | Authors & Title                                                                                          | Presenter |
+|---------------|---------------------------------------------------------------------------------------------------------|---------|
+| 27th Oct 2023 | Johnson, J.P., Rhodes, A. and Wildenbeest, M. (2023): Platform design when sellers use pricing algorithms| Haoyang   |
+| 3rd Nov 2023  | Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach    | Joe       |
+| 17th Nov 2023 | Athey, S., Imbens, G. W., Metzger, J., & Munro, E. (2021): Using Wasserstein GANs for Monte Carlo simulations| Seva   |
+| 1st Dec 2023  | Coulombe, Leroux, Stevanovic, Surpenant (2022): How is machine learning useful for macroeconomic forecasting?| Tibor  |
+
+### Theme 2: Econometric Methods
+
+| Date          | Authors & Title                                                                                    | Presenter |
+|---------------|---------------------------------------------------------------------------------------------------|---------|
+| 8th Dec 2023  | Korting, C., Lieberman, C., Matsudaira, J., Pei, Z. and Shen, Y. (2023): Visual Inference and Graphical Representation in RDDs| Javid  |
+| 15th Dec 2023 | Abadie, Athey, Imbens and Wooldridge (2023): When Should You Adjust Standard Errors for Clustering?| George  |
+
+
+## Accessing the papers
+The papers can be accessed on the sessions page. 
+
+## Zoom link
+The zoom link for the reading group is: 
+

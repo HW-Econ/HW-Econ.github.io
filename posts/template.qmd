@@ -1,0 +1,15 @@
+---
+title: "Platform design when sellers use pricing algorithms"
+author: "Haoyang Li"
+date: "5/22/2021"
+draft: true
+categories: 
+    - Mechanism Design
+    - Machine Learning
+---
+
+## Link to Paper
+![Paper](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3814014)
+
+## Presentation Slides
+

@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/about.html",
+    "items": []
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/session_1.html"
+    ]
+  },
+  {
+    "listing": "/sessions.html",
+    "items": [
+      "/posts/platforms_algorithms.html"
+    ]
+  }
+]
