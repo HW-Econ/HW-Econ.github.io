@@ -1,7 +1,8 @@
 ---
 title: "2023-2024 Schedule"
 ---
-
+<!-- To render the document -->
+<!-- quorto render -->
 ### Theme 1: Machine Learning
 
 | Date          | Authors & Title                                                                                          | Presenter |
