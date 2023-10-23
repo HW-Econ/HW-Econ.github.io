@@ -10,13 +10,15 @@ categories:
 
 ## Link to Paper
 
-<object data="https://github.com/HW-Econ/HW-Econ.github.io/blob/6e4fb3db71d36ed15d8d5797b3487db9a8c76809/posts/files/Econometrica%20-%202023%20-%20Johnson%20-%20Platform%20Design%20When%20Sellers%20Use%20Pricing%20Algorithms.pdf" type="application/pdf" width="700px" height="700px">
-<embed src="https://github.com/HW-Econ/HW-Econ.github.io/blob/6e4fb3db71d36ed15d8d5797b3487db9a8c76809/posts/files/Econometrica%20-%202023%20-%20Johnson%20-%20Platform%20Design%20When%20Sellers%20Use%20Pricing%20Algorithms.pdf">
-    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/HW-Econ/HW-Econ.github.io/blob/6e4fb3db71d36ed15d8d5797b3487db9a8c76809/posts/files/Econometrica%20-%202023%20-%20Johnson%20-%20Platform%20Design%20When%20Sellers%20Use%20Pricing%20Algorithms.pdf">Download PDF</a>.</p>
+[Platform design when sellers use pricing algorithms (LINK)](https://github.com/HW-Econ/HW-Econ.github.io/blob/6e4fb3db71d36ed15d8d5797b3487db9a8c76809/posts/files/Econometrica%20-%202023%20-%20Johnson%20-%20Platform%20Design%20When%20Sellers%20Use%20Pricing%20Algorithms.pdf)
 
+
+<object data="https://github.com/HW-Econ/HW-Econ.github.io/raw/6e4fb3db71d36ed15d8d5797b3487db9a8c76809/posts/files/Econometrica%20-%202023%20-%20Johnson%20-%20Platform%20Design%20When%20Sellers%20Use%20Pricing%20Algorithms.pdf" type="application/pdf" width="700px" height="700px">
+<embed src="https://github.com/HW-Econ/HW-Econ.github.io/raw/6e4fb3db71d36ed15d8d5797b3487db9a8c76809/posts/files/Econometrica%20-%202023%20-%20Johnson%20-%20Platform%20Design%20When%20Sellers%20Use%20Pricing%20Algorithms.pdf">
+    <p>This browser does not support PDFs. Please download the PDF to view it: <a href="https://github.com/HW-Econ/HW-Econ.github.io/raw/6e4fb3db71d36ed15d8d5797b3487db9a8c76809/posts/files/Econometrica%20-%202023%20-%20Johnson%20-%20Platform%20Design%20When%20Sellers%20Use%20Pricing%20Algorithms.pdf">Download PDF</a>.</p>
 </embed>
 </object>
 
 ## Presentation Slides
-Slides go here
+
 
