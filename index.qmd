@@ -2,7 +2,7 @@
 title: "2023-2024 Schedule"
 ---
 <!-- To render the document -->
-<!-- quorto render -->
+<!-- quarto render -->
 ### Theme 1: Machine Learning
 
 | Date          | Authors & Title                                                                                          | Presenter |
@@ -10,6 +10,7 @@ title: "2023-2024 Schedule"
 | 27th Oct 2023 | Johnson, J.P., Rhodes, A. and Wildenbeest, M. (2023): Platform design when sellers use pricing algorithms| Haoyang   |
 | 3rd Nov 2023  | Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach    | Joe       |
 | 17th Nov 2023 | Athey, S., Imbens, G. W., Metzger, J., & Munro, E. (2021): Using Wasserstein GANs for Monte Carlo simulations| Seva   |
+| 24th Nov 2023 | Hale, Regev, and Rubinstein (2023): Do looks matter for an academic career in economics?| Meg   |
 | 1st Dec 2023  | Coulombe, Leroux, Stevanovic, Surpenant (2022): How is machine learning useful for macroeconomic forecasting?| Tibor  |
 
 ### Theme 2: Econometric Methods
