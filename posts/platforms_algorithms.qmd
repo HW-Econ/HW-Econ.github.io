@@ -6,6 +6,9 @@ draft: false
 categories: 
     - Mechanism Design
     - Machine Learning
+
+resources: 
+    - posts/files/Econometrica - 2023 - Johnson - Platform Design When Sellers Use Pricing Algorithms.pdf
 ---
 
 ## Link to Paper
