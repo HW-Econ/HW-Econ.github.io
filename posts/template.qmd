@@ -1,6 +1,6 @@
 ---
-title: "Platform design when sellers use pricing algorithms"
-author: "Haoyang Li"
+title: "Template"
+author: ""
 date: "5/22/2021"
 draft: true
 categories: 
@@ -13,4 +13,3 @@ categories:
 
 ## Presentation Slides
 
-This is a change.
