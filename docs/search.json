@@ -1,5 +1,40 @@
 [
   {
+    "objectID": "sessions.html",
+    "href": "sessions.html",
+    "title": "Sessions",
+    "section": "",
+    "text": "3rd Nov 2023 - Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach"
+  },
+  {
+    "objectID": "sessions.html#previous-sessions",
+    "href": "sessions.html#previous-sessions",
+    "title": "Sessions",
+    "section": "Previous Sessions",
+    "text": "Previous Sessions"
+  },
+  {
+    "objectID": "posts/platforms_algorithms.html",
+    "href": "posts/platforms_algorithms.html",
+    "title": "Platform design when sellers use pricing algorithms",
+    "section": "",
+    "text": "Platform design when sellers use pricing algorithms (LINK)"
+  },
+  {
+    "objectID": "posts/platforms_algorithms.html#link-to-paper",
+    "href": "posts/platforms_algorithms.html#link-to-paper",
+    "title": "Platform design when sellers use pricing algorithms",
+    "section": "",
+    "text": "Platform design when sellers use pricing algorithms (LINK)"
+  },
+  {
+    "objectID": "posts/platforms_algorithms.html#presentation-slides",
+    "href": "posts/platforms_algorithms.html#presentation-slides",
+    "title": "Platform design when sellers use pricing algorithms",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nPresentation Slides"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "2023-2024 Schedule",
@@ -18,7 +53,7 @@
     "href": "index.html#location-and-time",
     "title": "2023-2024 Schedule",
     "section": "Location and time",
-    "text": "Location and time\nThe first two sessions (27th Oct and 3rd Nov) will happen at the Boardroom on EBS second floor.\nThe sessions will happen every Friday from 12:30pm to 1:30pm till 15th Dec, except 10th Nov"
+    "text": "Location and time\nThe first two sessions (27th Oct and 3rd Nov) will happen at the Boardroom on EBS second floor. All the other sessions will happen at the Kennedy boardroom on EBS ground floor.\nThe sessions will happen every Friday from 12:30pm to 1:30pm till 15th Dec, except 10th Nov"
   },
   {
     "objectID": "index.html#zoom-link",
@@ -47,40 +82,5 @@
     "title": "Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach",
     "section": "Presentation Slides",
     "text": "Presentation Slides"
-  },
-  {
-    "objectID": "posts/platforms_algorithms.html",
-    "href": "posts/platforms_algorithms.html",
-    "title": "Platform design when sellers use pricing algorithms",
-    "section": "",
-    "text": "Platform design when sellers use pricing algorithms (LINK)"
-  },
-  {
-    "objectID": "posts/platforms_algorithms.html#link-to-paper",
-    "href": "posts/platforms_algorithms.html#link-to-paper",
-    "title": "Platform design when sellers use pricing algorithms",
-    "section": "",
-    "text": "Platform design when sellers use pricing algorithms (LINK)"
-  },
-  {
-    "objectID": "posts/platforms_algorithms.html#presentation-slides",
-    "href": "posts/platforms_algorithms.html#presentation-slides",
-    "title": "Platform design when sellers use pricing algorithms",
-    "section": "Presentation Slides",
-    "text": "Presentation Slides\nPresentation Slides"
-  },
-  {
-    "objectID": "sessions.html",
-    "href": "sessions.html",
-    "title": "Sessions",
-    "section": "",
-    "text": "3rd Nov 2023 - Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach"
-  },
-  {
-    "objectID": "sessions.html#previous-sessions",
-    "href": "sessions.html#previous-sessions",
-    "title": "Sessions",
-    "section": "Previous Sessions",
-    "text": "Previous Sessions"
   }
 ]
