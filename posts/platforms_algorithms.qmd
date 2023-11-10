@@ -19,7 +19,7 @@ resources:
 
 ## Presentation Slides
 
-[Presentation Slides](https://github.com/HW-Econ/HW-Econ.github.io/blob/22fa20a460a9ec2437eb69e5d1a252082012c4c6/posts/files/Physician%20Error%20Slides.pdf)
+[Presentation Slides](https://github.com/HW-Econ/HW-Econ.github.io/blob/2340cd2e10fce748bffca999f5a63a1192137365/posts/files/Platform_design_slides.pdf)
 
 
 

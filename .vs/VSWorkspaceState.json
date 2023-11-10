@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\posts",
+    "\\posts\\files"
   ],
-  "SelectedNode": "\\index.qmd",
+  "SelectedNode": "\\posts\\platforms_algorithms.qmd",
   "PreviewInSolutionExplorer": false
 }
