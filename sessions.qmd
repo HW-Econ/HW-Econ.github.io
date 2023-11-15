@@ -14,6 +14,6 @@ title-block-banner: true
 ---
 
 ### Next Session
-3rd Nov 2023 - Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach  
+17th Nov 2023 - Athey, S., Imbens, G. W., Metzger, J., & Munro, E. (2021): Using Wasserstein GANs for Monte Carlo simulations  
 
 ## Previous Sessions
