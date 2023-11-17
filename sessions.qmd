@@ -14,6 +14,8 @@ title-block-banner: true
 ---
 
 ### Next Session
-17th Nov 2023 - Athey, S., Imbens, G. W., Metzger, J., & Munro, E. (2021): Using Wasserstein GANs for Monte Carlo simulations[LINK](https://github.com/HW-Econ/HW-Econ.github.io/blob/45d5a06bc1748fe46481cb3531b34e3830c5bc55/posts/files/Using%20Wasserstein%20Generative%20Adversarial%20Networks%20for%20MC.pdf)  
+17th Nov 2023 - Athey, S., Imbens, G. W., Metzger, J., & Munro, E. (2021): Using Wasserstein GANs for Monte Carlo simulations
+
+[LINK](https://github.com/HW-Econ/HW-Econ.github.io/blob/45d5a06bc1748fe46481cb3531b34e3830c5bc55/posts/files/Using%20Wasserstein%20Generative%20Adversarial%20Networks%20for%20MC.pdf)  
 
 ## Previous Sessions
