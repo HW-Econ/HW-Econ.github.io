@@ -1,0 +1,16 @@
+---
+title: "Using Wasserstein GANs for Monte Carlo simulations"
+author: "Seva"
+date: "11/17/2022"
+draft: false
+categories: 
+    - GANs
+    - Monte Carlo
+    - Machine Learning
+---
+
+## Link to Paper
+[LINK](https://github.com/HW-Econ/HW-Econ.github.io/blob/45d5a06bc1748fe46481cb3531b34e3830c5bc55/posts/files/Using%20Wasserstein%20Generative%20Adversarial%20Networks%20for%20MC.pdf)  
+
+## Presentation Slides
+

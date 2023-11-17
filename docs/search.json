@@ -28,6 +28,27 @@
     "text": "Zoom link\nThe zoom link for the reading group is: link\nPass: Top-N"
   },
   {
+    "objectID": "posts/platforms_algorithms.html",
+    "href": "posts/platforms_algorithms.html",
+    "title": "Platform design when sellers use pricing algorithms",
+    "section": "",
+    "text": "Platform design when sellers use pricing algorithms (LINK)"
+  },
+  {
+    "objectID": "posts/platforms_algorithms.html#link-to-paper",
+    "href": "posts/platforms_algorithms.html#link-to-paper",
+    "title": "Platform design when sellers use pricing algorithms",
+    "section": "",
+    "text": "Platform design when sellers use pricing algorithms (LINK)"
+  },
+  {
+    "objectID": "posts/platforms_algorithms.html#presentation-slides",
+    "href": "posts/platforms_algorithms.html#presentation-slides",
+    "title": "Platform design when sellers use pricing algorithms",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nPresentation Slides"
+  },
+  {
     "objectID": "posts/physician_error.html",
     "href": "posts/physician_error.html",
     "title": "Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach",
@@ -49,25 +70,25 @@
     "text": "Presentation Slides\nPresentation Slides"
   },
   {
-    "objectID": "posts/platforms_algorithms.html",
-    "href": "posts/platforms_algorithms.html",
-    "title": "Platform design when sellers use pricing algorithms",
+    "objectID": "posts/GANS.html",
+    "href": "posts/GANS.html",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
     "section": "",
-    "text": "Platform design when sellers use pricing algorithms (LINK)"
+    "text": "LINK"
   },
   {
-    "objectID": "posts/platforms_algorithms.html#link-to-paper",
-    "href": "posts/platforms_algorithms.html#link-to-paper",
-    "title": "Platform design when sellers use pricing algorithms",
+    "objectID": "posts/GANS.html#link-to-paper",
+    "href": "posts/GANS.html#link-to-paper",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
     "section": "",
-    "text": "Platform design when sellers use pricing algorithms (LINK)"
+    "text": "LINK"
   },
   {
-    "objectID": "posts/platforms_algorithms.html#presentation-slides",
-    "href": "posts/platforms_algorithms.html#presentation-slides",
-    "title": "Platform design when sellers use pricing algorithms",
+    "objectID": "posts/GANS.html#presentation-slides",
+    "href": "posts/GANS.html#presentation-slides",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
     "section": "Presentation Slides",
-    "text": "Presentation Slides\nPresentation Slides"
+    "text": "Presentation Slides"
   },
   {
     "objectID": "sessions.html",
