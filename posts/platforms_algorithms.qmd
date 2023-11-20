@@ -1,6 +1,6 @@
 ---
 title: "Platform design when sellers use pricing algorithms"
-author: "Joe Paul"
+author: "Haoyang Li"
 date: "10/27/2023"
 draft: false
 categories: 
