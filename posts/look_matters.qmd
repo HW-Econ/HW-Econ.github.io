@@ -1,0 +1,16 @@
+---
+title: "Do looks matter for an academic career in economics?"
+author: "Meg Sullivan"
+date: "11/24/2023"
+draft: false
+categories: 
+    - Appearance
+    - Statistical discrimination
+    - Economists
+---
+
+## Link to Paper
+[Paper](https://www-sciencedirect-com.ezproxy1.hw.ac.uk/science/article/pii/S016726812300344X)
+
+## Presentation Slides
+[Slides](https://github.com/HW-Econ/HW-Econ.github.io/blob/12c047772a4168b90bb0ca485e3aca725cc10b4f/posts/files/MegAutumn23ReadingGroup.pdf)

@@ -14,8 +14,8 @@ title-block-banner: true
 ---
 
 ### Next Session
-24th Nov 2023 - Hale, Regev, and Rubinstein (2023): Do looks matter for an academic career in economics?
+1st Dec 2023 - Coulombe, Leroux, Stevanovic, Surpenant (2022): How is machine learning useful for macroeconomic forecasting?
 
-[LINK](https://www-sciencedirect-com.ezproxy1.hw.ac.uk/science/article/pii/S016726812300344X)  
+[LINK](https://github.com/HW-Econ/HW-Econ.github.io/blob/12c047772a4168b90bb0ca485e3aca725cc10b4f/posts/files/J%20of%20Applied%20Econometrics%20-%202022%20-%20Goulet%20Coulombe%20-%20How%20is%20machine%20learning%20useful%20for%20macroeconomic%20forecasting.pdf)  
 
 ## Previous Sessions
