@@ -2,9 +2,10 @@
   {
     "listing": "/sessions.html",
     "items": [
+      "/posts/look_matters.html",
+      "/posts/GANS.html",
       "/posts/physician_error.html",
-      "/posts/platforms_algorithms.html",
-      "/posts/GANS.html"
+      "/posts/platforms_algorithms.html"
     ]
   }
 ]

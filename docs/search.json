@@ -4,7 +4,7 @@
     "href": "sessions.html",
     "title": "Sessions",
     "section": "",
-    "text": "24th Nov 2023 - Hale, Regev, and Rubinstein (2023): Do looks matter for an academic career in economics?\nLINK"
+    "text": "1st Dec 2023 - Coulombe, Leroux, Stevanovic, Surpenant (2022): How is machine learning useful for macroeconomic forecasting?\nLINK"
   },
   {
     "objectID": "sessions.html#previous-sessions",
@@ -35,25 +35,25 @@
     "text": "Presentation Slides\nPresentation Slides"
   },
   {
-    "objectID": "posts/GANS.html",
-    "href": "posts/GANS.html",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "objectID": "posts/look_matters.html",
+    "href": "posts/look_matters.html",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "",
-    "text": "LINK"
+    "text": "Paper"
   },
   {
-    "objectID": "posts/GANS.html#link-to-paper",
-    "href": "posts/GANS.html#link-to-paper",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "objectID": "posts/look_matters.html#link-to-paper",
+    "href": "posts/look_matters.html#link-to-paper",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "",
-    "text": "LINK"
+    "text": "Paper"
   },
   {
-    "objectID": "posts/GANS.html#presentation-slides",
-    "href": "posts/GANS.html#presentation-slides",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "objectID": "posts/look_matters.html#presentation-slides",
+    "href": "posts/look_matters.html#presentation-slides",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "Presentation Slides",
-    "text": "Presentation Slides\nLINK"
+    "text": "Presentation Slides\nSlides"
   },
   {
     "objectID": "index.html",
@@ -82,6 +82,27 @@
     "title": "2023-2024 Schedule",
     "section": "Zoom link",
     "text": "Zoom link\nThe zoom link for the reading group is: link\nPass: Top-N"
+  },
+  {
+    "objectID": "posts/GANS.html",
+    "href": "posts/GANS.html",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/GANS.html#link-to-paper",
+    "href": "posts/GANS.html#link-to-paper",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/GANS.html#presentation-slides",
+    "href": "posts/GANS.html#presentation-slides",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nLINK"
   },
   {
     "objectID": "posts/physician_error.html",
