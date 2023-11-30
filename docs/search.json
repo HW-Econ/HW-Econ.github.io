@@ -35,25 +35,46 @@
     "text": "Presentation Slides\nPresentation Slides"
   },
   {
-    "objectID": "posts/look_matters.html",
-    "href": "posts/look_matters.html",
-    "title": "Do looks matter for an academic career in economics?",
+    "objectID": "posts/ml_for_macro.html",
+    "href": "posts/ml_for_macro.html",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/look_matters.html#link-to-paper",
-    "href": "posts/look_matters.html#link-to-paper",
-    "title": "Do looks matter for an academic career in economics?",
+    "objectID": "posts/ml_for_macro.html#link-to-paper",
+    "href": "posts/ml_for_macro.html#link-to-paper",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/look_matters.html#presentation-slides",
-    "href": "posts/look_matters.html#presentation-slides",
-    "title": "Do looks matter for an academic career in economics?",
+    "objectID": "posts/ml_for_macro.html#presentation-slides",
+    "href": "posts/ml_for_macro.html#presentation-slides",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nSlides"
+  },
+  {
+    "objectID": "posts/GANS.html",
+    "href": "posts/GANS.html",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/GANS.html#link-to-paper",
+    "href": "posts/GANS.html#link-to-paper",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/GANS.html#presentation-slides",
+    "href": "posts/GANS.html#presentation-slides",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nLINK"
   },
   {
     "objectID": "index.html",
@@ -84,25 +105,25 @@
     "text": "Zoom link\nThe zoom link for the reading group is: link\nPass: Top-N"
   },
   {
-    "objectID": "posts/GANS.html",
-    "href": "posts/GANS.html",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "objectID": "posts/look_matters.html",
+    "href": "posts/look_matters.html",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "",
-    "text": "LINK"
+    "text": "Paper"
   },
   {
-    "objectID": "posts/GANS.html#link-to-paper",
-    "href": "posts/GANS.html#link-to-paper",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "objectID": "posts/look_matters.html#link-to-paper",
+    "href": "posts/look_matters.html#link-to-paper",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "",
-    "text": "LINK"
+    "text": "Paper"
   },
   {
-    "objectID": "posts/GANS.html#presentation-slides",
-    "href": "posts/GANS.html#presentation-slides",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "objectID": "posts/look_matters.html#presentation-slides",
+    "href": "posts/look_matters.html#presentation-slides",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "Presentation Slides",
-    "text": "Presentation Slides\nLINK"
+    "text": "Presentation Slides\nSlides"
   },
   {
     "objectID": "posts/physician_error.html",
