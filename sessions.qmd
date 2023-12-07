@@ -14,8 +14,8 @@ title-block-banner: true
 ---
 
 ### Next Session
-1st Dec 2023 - Coulombe, Leroux, Stevanovic, Surpenant (2022): How is machine learning useful for macroeconomic forecasting?
+8th Dec 2023 - Korting, C., Lieberman, C., Matsudaira, J., Pei, Z. and Shen, Y. (2023): Visual Inference and Graphical Representation in RDDs
 
-[LINK](https://github.com/HW-Econ/HW-Econ.github.io/blob/12c047772a4168b90bb0ca485e3aca725cc10b4f/posts/files/J%20of%20Applied%20Econometrics%20-%202022%20-%20Goulet%20Coulombe%20-%20How%20is%20machine%20learning%20useful%20for%20macroeconomic%20forecasting.pdf)  
+[LINK](https://github.com/HW-Econ/HW-Econ.github.io/blob/aaf5b50799201e7e9d798700e707796bad5d4893/posts/files/visual%20inference%20and%20graphic%20representation%20in%20RDD.pdf)  
 
 ## Previous Sessions
