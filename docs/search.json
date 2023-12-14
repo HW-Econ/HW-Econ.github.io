@@ -4,7 +4,7 @@
     "href": "sessions.html",
     "title": "Sessions",
     "section": "",
-    "text": "8th Dec 2023 - Korting, C., Lieberman, C., Matsudaira, J., Pei, Z. and Shen, Y. (2023): Visual Inference and Graphical Representation in RDDs\nLINK"
+    "text": "15th Dec 2023 - Abadie, Athey, Imbens and Wooldridge (2023): When Should You Adjust Standard Errors for Clustering?\nLINK"
   },
   {
     "objectID": "sessions.html#previous-sessions",
@@ -14,67 +14,46 @@
     "text": "Previous Sessions"
   },
   {
-    "objectID": "posts/platforms_algorithms.html",
-    "href": "posts/platforms_algorithms.html",
-    "title": "Platform design when sellers use pricing algorithms",
+    "objectID": "posts/physician_error.html",
+    "href": "posts/physician_error.html",
+    "title": "Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach",
     "section": "",
-    "text": "Platform design when sellers use pricing algorithms (LINK)"
+    "text": "Paper"
   },
   {
-    "objectID": "posts/platforms_algorithms.html#link-to-paper",
-    "href": "posts/platforms_algorithms.html#link-to-paper",
-    "title": "Platform design when sellers use pricing algorithms",
+    "objectID": "posts/physician_error.html#link-to-paper",
+    "href": "posts/physician_error.html#link-to-paper",
+    "title": "Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach",
     "section": "",
-    "text": "Platform design when sellers use pricing algorithms (LINK)"
+    "text": "Paper"
   },
   {
-    "objectID": "posts/platforms_algorithms.html#presentation-slides",
-    "href": "posts/platforms_algorithms.html#presentation-slides",
-    "title": "Platform design when sellers use pricing algorithms",
+    "objectID": "posts/physician_error.html#presentation-slides",
+    "href": "posts/physician_error.html#presentation-slides",
+    "title": "Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nPresentation Slides"
   },
   {
-    "objectID": "posts/ml_for_macro.html",
-    "href": "posts/ml_for_macro.html",
-    "title": "How is machine learning useful for macroeconomic forecasting?",
+    "objectID": "posts/look_matters.html",
+    "href": "posts/look_matters.html",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/ml_for_macro.html#link-to-paper",
-    "href": "posts/ml_for_macro.html#link-to-paper",
-    "title": "How is machine learning useful for macroeconomic forecasting?",
+    "objectID": "posts/look_matters.html#link-to-paper",
+    "href": "posts/look_matters.html#link-to-paper",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/ml_for_macro.html#presentation-slides",
-    "href": "posts/ml_for_macro.html#presentation-slides",
-    "title": "How is machine learning useful for macroeconomic forecasting?",
+    "objectID": "posts/look_matters.html#presentation-slides",
+    "href": "posts/look_matters.html#presentation-slides",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nSlides"
-  },
-  {
-    "objectID": "posts/GANS.html",
-    "href": "posts/GANS.html",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
-    "section": "",
-    "text": "LINK"
-  },
-  {
-    "objectID": "posts/GANS.html#link-to-paper",
-    "href": "posts/GANS.html#link-to-paper",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
-    "section": "",
-    "text": "LINK"
-  },
-  {
-    "objectID": "posts/GANS.html#presentation-slides",
-    "href": "posts/GANS.html#presentation-slides",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
-    "section": "Presentation Slides",
-    "text": "Presentation Slides\nLINK"
   },
   {
     "objectID": "index.html",
@@ -105,45 +84,87 @@
     "text": "Zoom link\nThe zoom link for the reading group is: link\nPass: Top-N"
   },
   {
-    "objectID": "posts/look_matters.html",
-    "href": "posts/look_matters.html",
-    "title": "Do looks matter for an academic career in economics?",
+    "objectID": "posts/GANS.html",
+    "href": "posts/GANS.html",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/GANS.html#link-to-paper",
+    "href": "posts/GANS.html#link-to-paper",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/GANS.html#presentation-slides",
+    "href": "posts/GANS.html#presentation-slides",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nLINK"
+  },
+  {
+    "objectID": "posts/ml_for_macro.html",
+    "href": "posts/ml_for_macro.html",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/look_matters.html#link-to-paper",
-    "href": "posts/look_matters.html#link-to-paper",
-    "title": "Do looks matter for an academic career in economics?",
+    "objectID": "posts/ml_for_macro.html#link-to-paper",
+    "href": "posts/ml_for_macro.html#link-to-paper",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/look_matters.html#presentation-slides",
-    "href": "posts/look_matters.html#presentation-slides",
-    "title": "Do looks matter for an academic career in economics?",
+    "objectID": "posts/ml_for_macro.html#presentation-slides",
+    "href": "posts/ml_for_macro.html#presentation-slides",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nSlides"
   },
   {
-    "objectID": "posts/physician_error.html",
-    "href": "posts/physician_error.html",
-    "title": "Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach",
+    "objectID": "posts/platforms_algorithms.html",
+    "href": "posts/platforms_algorithms.html",
+    "title": "Platform design when sellers use pricing algorithms",
     "section": "",
-    "text": "Paper"
+    "text": "Platform design when sellers use pricing algorithms (LINK)"
   },
   {
-    "objectID": "posts/physician_error.html#link-to-paper",
-    "href": "posts/physician_error.html#link-to-paper",
-    "title": "Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach",
+    "objectID": "posts/platforms_algorithms.html#link-to-paper",
+    "href": "posts/platforms_algorithms.html#link-to-paper",
+    "title": "Platform design when sellers use pricing algorithms",
     "section": "",
-    "text": "Paper"
+    "text": "Platform design when sellers use pricing algorithms (LINK)"
   },
   {
-    "objectID": "posts/physician_error.html#presentation-slides",
-    "href": "posts/physician_error.html#presentation-slides",
-    "title": "Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach",
+    "objectID": "posts/platforms_algorithms.html#presentation-slides",
+    "href": "posts/platforms_algorithms.html#presentation-slides",
+    "title": "Platform design when sellers use pricing algorithms",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nPresentation Slides"
+  },
+  {
+    "objectID": "posts/visual_inference_RDD.html",
+    "href": "posts/visual_inference_RDD.html",
+    "title": "Visual Inference and Graphical Representation in RDDs",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "posts/visual_inference_RDD.html#link-to-paper",
+    "href": "posts/visual_inference_RDD.html#link-to-paper",
+    "title": "Visual Inference and Graphical Representation in RDDs",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "posts/visual_inference_RDD.html#presentation-slides",
+    "href": "posts/visual_inference_RDD.html#presentation-slides",
+    "title": "Visual Inference and Graphical Representation in RDDs",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nSlides"
   }
 ]
