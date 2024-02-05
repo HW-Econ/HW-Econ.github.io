@@ -1,43 +1,3 @@
-<!--
----
-title: "2023-2024 Schedule"
----
-<!-- To render the document -->
-<!-- quarto render -->
-### Theme 1: Machine Learning
-
-| Date          | Authors & Title                                                                                          | Presenter |
-|---------------|---------------------------------------------------------------------------------------------------------|---------|
-| 27th Oct 2023 | Johnson, J.P., Rhodes, A. and Wildenbeest, M. (2023): Platform design when sellers use pricing algorithms| Haoyang   |
-| 3rd Nov 2023  | Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach    | Joe       |
-| 17th Nov 2023 | Athey, S., Imbens, G. W., Metzger, J., & Munro, E. (2021): Using Wasserstein GANs for Monte Carlo simulations| Seva   |
-| 24th Nov 2023 | Hale, Regev, and Rubinstein (2023): Do looks matter for an academic career in economics?| Meg   |
-| 1st Dec 2023  | Coulombe, Leroux, Stevanovic, Surpenant (2022): How is machine learning useful for macroeconomic forecasting?| Tibor  |
-
-### Theme 2: Econometric Methods
-
-| Date          | Authors & Title                                                                                    | Presenter |
-|---------------|---------------------------------------------------------------------------------------------------|---------|
-| 8th Dec 2023  | Korting, C., Lieberman, C., Matsudaira, J., Pei, Z. and Shen, Y. (2023): Visual Inference and Graphical Representation in RDDs| Javid  |
-| 15th Dec 2023 | Abadie, Athey, Imbens and Wooldridge (2023): When Should You Adjust Standard Errors for Clustering?| George  |
-
-
-## Accessing the papers
-The papers can be accessed on the sessions page. 
-
-## Location and time
-The first two sessions (*27th Oct* and *3rd Nov*) will happen at the *Boardroom on EBS second floor*.
-
-All the other sessions will happen at the *Kennedy boardroom on EBS ground floor*.
-
-The sessions will happen every Friday from 12:30pm to 1:30pm till 15th Dec, except 10th Nov
-
-## Zoom link
-The zoom link for the reading group is: [link](https://zoom.us/j/92191631609?pwd=bHFsN0p1MXh6UlhRT0tiZk90MklBQT09) 
-
-Pass: Top-N
--->
-
 ---
 title: "2024 Spring Schedule"
 ---
@@ -55,7 +15,7 @@ title: "2024 Spring Schedule"
 | 27th Mar 2024 | TBA|  |
 | 3rd Apr 2024 | Kudlyak, M. (2014). The cyclicality of the user cost of labor| Joao  |
 | 10th Apr 2024  | TBA  |    |
-| 17th Apr 2024 | Goldsmith-Pinkham, Hull &  Kolesár (2022) - Contamination Bias in Linear Regressions | Joe   |
+| 17th Apr 2024 | Goldsmith-Pinkham, Hull and Kolesar (2022). Contamination Bias in Linear Regressions | Joe   |
 | 24th Apr 2024 | TBA|  |
 | 1st May 2024  | Ederer, Tim. (2023). Labor market dynamics and teacher spatial sorting.| Seva  |
 | 8th May 2024  | TBA|  |
