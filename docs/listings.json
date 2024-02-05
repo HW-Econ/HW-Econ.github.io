@@ -2,6 +2,7 @@
   {
     "listing": "/sessions.html",
     "items": [
+      "/posts/cluster_for_sd.html",
       "/posts/visual_inference_RDD.html",
       "/posts/ml_for_macro.html",
       "/posts/look_matters.html",
