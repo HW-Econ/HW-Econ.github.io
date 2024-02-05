@@ -1,3 +1,4 @@
+<!--
 ---
 title: "2023-2024 Schedule"
 ---
@@ -35,4 +36,42 @@ The sessions will happen every Friday from 12:30pm to 1:30pm till 15th Dec, exce
 The zoom link for the reading group is: [link](https://zoom.us/j/92191631609?pwd=bHFsN0p1MXh6UlhRT0tiZk90MklBQT09) 
 
 Pass: Top-N
+-->
 
+---
+title: "2024 Spring Schedule"
+---
+<!-- To render the document -->
+<!-- quarto render -->
+
+| Date          | Authors & Title                                                                                          | Presenter |
+|---------------|---------------------------------------------------------------------------------------------------------|---------|
+| 14th Feb 2024 | Rasul, I., Souza, P. and de Paula, A., (2023). Identifying Network Ties from Panel Data: Theory and an application to tax competition| Haoyang   |
+| 21st Feb 2024  | TBA    |      |
+| 28th Feb 2024 | Chavleishvili, S., Manganelli, S. (2023). Forecasting and stress testing with quantile vector autoregression| Tibor   |
+| 6th Mar 2024 | Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. (2023). The Voice of Monetary Policy.| Meg   |
+| 13th Mar 2024  | TBA|  |
+| 20th Mar 2024  | Kelly, M. (2019). The standard errors of persistence.| George  |
+| 27th Mar 2024 | TBA|  |
+| 3rd Apr 2024 | Kudlyak, M. (2014). The cyclicality of the user cost of labor| Joao  |
+| 10th Apr 2024  | TBA  |    |
+| 17th Apr 2024 | Goldsmith-Pinkham, Hull &  Kolesár (2022) - Contamination Bias in Linear Regressions | Joe   |
+| 24th Apr 2024 | TBA|  |
+| 1st May 2024  | Ederer, Tim. (2023). Labor market dynamics and teacher spatial sorting.| Seva  |
+| 8th May 2024  | TBA|  |
+| 15th May 2024 | 2 Minutes Madness| Economics PhD  |
+
+## Accessing the papers
+The papers can be accessed on the sessions page. 
+
+## Location and time
+Location will be announced soon.
+
+The sessions will happen every (other) Wednesday from 1pm to 2pm till 15th May.
+
+## Zoom link
+The zoom link for the reading group is: [link](https://zoom.us/j/92191631609?pwd=bHFsN0p1MXh6UlhRT0tiZk90MklBQT09) 
+
+Meeting ID: 921 9163 1609
+
+Pass: Top-N

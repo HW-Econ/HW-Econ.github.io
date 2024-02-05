@@ -14,8 +14,8 @@ title-block-banner: true
 ---
 
 ### Next Session
-15th Dec 2023 - Abadie, Athey, Imbens and Wooldridge (2023): When Should You Adjust Standard Errors for Clustering?
+14th Feb 2024 - Rasul, I., Souza, P. and de Paula, A., (2023). Identifying Network Ties from Panel Data: Theory and an application to tax competition
 
-[LINK](https://github.com/HW-Econ/HW-Econ.github.io/blob/2f0b1a7f114664c175f10df65beed3d0af85ee1d/posts/files/when%20should%20you%20adjust%20cluster%20error.pdf)  
+[LINK](https://browse.arxiv.org/pdf/1910.07452.pdf)  
 
 ## Previous Sessions
