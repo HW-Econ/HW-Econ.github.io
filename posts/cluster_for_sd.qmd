@@ -4,8 +4,8 @@ author: "George"
 date: "12/15/2023"
 draft: false
 categories: 
-    - clusterted standard errors
-    - variance estimators
+    - standard errors
+    - estimators
 ---
 
 ## Link to Paper
