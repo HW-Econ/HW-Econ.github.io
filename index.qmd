@@ -19,16 +19,16 @@ title: "2024 Spring Schedule"
 The papers can be accessed on the sessions page. 
 
 ## Location and time
-14th Feb: The boardroom, EBS second floor
-28th Feb: Kennedy boardroom, EBS ground floor
-6th Mar: Kennedy boardroom, EBS ground floor
-20th Mar: MBG20
-3rd Apr: Kennedy boardroom, EBS ground floor
-17th Apr: Kennedy boardroom, EBS ground floor
-1st May: Kennedy boardroom, EBS ground floor
+14th Feb: The boardroom, EBS second floor<br>
+28th Feb: Kennedy boardroom, EBS ground floor<br>
+6th Mar: Kennedy boardroom, EBS ground floor<br>
+20th Mar: MBG20<br>
+3rd Apr: Kennedy boardroom, EBS ground floor<br>
+17th Apr: Kennedy boardroom, EBS ground floor<br>
+1st May: Kennedy boardroom, EBS ground floor<br>
 15th May: TBA
 
-The sessions will happen every (other) Wednesday from *1pm* to *2pm* till *15th May*.
+The sessions will happen every (other) Wednesday from <strong>1pm</strong> to <strong>2pm</strong> till <strong>15th May</strong>.
 
 ## Zoom link
 The zoom link for the reading group is: [link](https://zoom.us/j/92191631609?pwd=bHFsN0p1MXh6UlhRT0tiZk90MklBQT09) 
