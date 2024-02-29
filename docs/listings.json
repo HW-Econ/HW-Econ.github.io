@@ -2,6 +2,7 @@
   {
     "listing": "/sessions.html",
     "items": [
+      "/posts/QVAR.html",
       "/posts/network_ties.html",
       "/posts/cluster_for_sd.html",
       "/posts/visual_inference_RDD.html",
