@@ -4,12 +4,12 @@ author: "George"
 date: "12/15/2023"
 draft: false
 categories: 
-    - standard errors
-    - estimators
+    - Standard errors
+    - Estimators
 ---
 
 ## Link to Paper
-[LINK](https://github.com/HW-Econ/HW-Econ.github.io/blob/2f0b1a7f114664c175f10df65beed3d0af85ee1d/posts/files/when%20should%20you%20adjust%20cluster%20error.pdf)  
+[LINK](https://academic.oup.com/qje/article/138/1/1/6750017)  
 
 ## Presentation Slides
 [LINK](https://github.com/HW-Econ/HW-Econ.github.io/blob/6bbca81e0d0f575d2827c2d9d76e32cff8af7b79/posts/files/When%20to%20cluster%20reading%20group.pdf)

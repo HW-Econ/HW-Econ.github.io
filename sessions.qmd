@@ -14,8 +14,8 @@ title-block-banner: true
 ---
 
 ### Next Session
-14th Feb 2024 - Rasul, I., Souza, P. and de Paula, A., (2023). Identifying Network Ties from Panel Data: Theory and an application to tax competition
+6th Mar 2024 - Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. (2023). The Voice of Monetary Policy.
 
-[LINK](https://browse.arxiv.org/pdf/1910.07452.pdf)  
+[SLides (once available)]()  
 
 ## Previous Sessions

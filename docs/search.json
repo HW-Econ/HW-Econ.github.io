@@ -4,7 +4,7 @@
     "href": "sessions.html",
     "title": "Sessions",
     "section": "",
-    "text": "14th Feb 2024 - Rasul, I., Souza, P. and de Paula, A., (2023). Identifying Network Ties from Panel Data: Theory and an application to tax competition\nLINK"
+    "text": "6th Mar 2024 - Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. (2023). The Voice of Monetary Policy.\nSLides (once available)"
   },
   {
     "objectID": "sessions.html#previous-sessions",
@@ -35,44 +35,44 @@
     "text": "Presentation Slides\nPresentation Slides"
   },
   {
-    "objectID": "posts/look_matters.html",
-    "href": "posts/look_matters.html",
-    "title": "Do looks matter for an academic career in economics?",
+    "objectID": "posts/ml_for_macro.html",
+    "href": "posts/ml_for_macro.html",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/look_matters.html#link-to-paper",
-    "href": "posts/look_matters.html#link-to-paper",
-    "title": "Do looks matter for an academic career in economics?",
+    "objectID": "posts/ml_for_macro.html#link-to-paper",
+    "href": "posts/ml_for_macro.html#link-to-paper",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/look_matters.html#presentation-slides",
-    "href": "posts/look_matters.html#presentation-slides",
-    "title": "Do looks matter for an academic career in economics?",
+    "objectID": "posts/ml_for_macro.html#presentation-slides",
+    "href": "posts/ml_for_macro.html#presentation-slides",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nSlides"
   },
   {
-    "objectID": "posts/cluster_for_sd.html",
-    "href": "posts/cluster_for_sd.html",
-    "title": "When Should You Adjust Standard Errors for Clustering?",
+    "objectID": "posts/GANS.html",
+    "href": "posts/GANS.html",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
     "section": "",
     "text": "LINK"
   },
   {
-    "objectID": "posts/cluster_for_sd.html#link-to-paper",
-    "href": "posts/cluster_for_sd.html#link-to-paper",
-    "title": "When Should You Adjust Standard Errors for Clustering?",
+    "objectID": "posts/GANS.html#link-to-paper",
+    "href": "posts/GANS.html#link-to-paper",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
     "section": "",
     "text": "LINK"
   },
   {
-    "objectID": "posts/cluster_for_sd.html#presentation-slides",
-    "href": "posts/cluster_for_sd.html#presentation-slides",
-    "title": "When Should You Adjust Standard Errors for Clustering?",
+    "objectID": "posts/GANS.html#presentation-slides",
+    "href": "posts/GANS.html#presentation-slides",
+    "title": "Using Wasserstein GANs for Monte Carlo simulations",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nLINK"
   },
@@ -105,46 +105,67 @@
     "text": "Zoom link\nThe zoom link for the reading group is: link\nMeeting ID: 921 9163 1609\nPass: Top-N"
   },
   {
-    "objectID": "posts/GANS.html",
-    "href": "posts/GANS.html",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "objectID": "posts/cluster_for_sd.html",
+    "href": "posts/cluster_for_sd.html",
+    "title": "When Should You Adjust Standard Errors for Clustering?",
     "section": "",
     "text": "LINK"
   },
   {
-    "objectID": "posts/GANS.html#link-to-paper",
-    "href": "posts/GANS.html#link-to-paper",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "objectID": "posts/cluster_for_sd.html#link-to-paper",
+    "href": "posts/cluster_for_sd.html#link-to-paper",
+    "title": "When Should You Adjust Standard Errors for Clustering?",
     "section": "",
     "text": "LINK"
   },
   {
-    "objectID": "posts/GANS.html#presentation-slides",
-    "href": "posts/GANS.html#presentation-slides",
-    "title": "Using Wasserstein GANs for Monte Carlo simulations",
+    "objectID": "posts/cluster_for_sd.html#presentation-slides",
+    "href": "posts/cluster_for_sd.html#presentation-slides",
+    "title": "When Should You Adjust Standard Errors for Clustering?",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nLINK"
   },
   {
-    "objectID": "posts/ml_for_macro.html",
-    "href": "posts/ml_for_macro.html",
-    "title": "How is machine learning useful for macroeconomic forecasting?",
+    "objectID": "posts/look_matters.html",
+    "href": "posts/look_matters.html",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/ml_for_macro.html#link-to-paper",
-    "href": "posts/ml_for_macro.html#link-to-paper",
-    "title": "How is machine learning useful for macroeconomic forecasting?",
+    "objectID": "posts/look_matters.html#link-to-paper",
+    "href": "posts/look_matters.html#link-to-paper",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/ml_for_macro.html#presentation-slides",
-    "href": "posts/ml_for_macro.html#presentation-slides",
-    "title": "How is machine learning useful for macroeconomic forecasting?",
+    "objectID": "posts/look_matters.html#presentation-slides",
+    "href": "posts/look_matters.html#presentation-slides",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nSlides"
+  },
+  {
+    "objectID": "posts/network_ties.html",
+    "href": "posts/network_ties.html",
+    "title": "Identifying Network Ties from Panel Data: Theory and an application to tax competition",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/network_ties.html#link-to-paper",
+    "href": "posts/network_ties.html#link-to-paper",
+    "title": "Identifying Network Ties from Panel Data: Theory and an application to tax competition",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/network_ties.html#presentation-slides",
+    "href": "posts/network_ties.html#presentation-slides",
+    "title": "Identifying Network Ties from Panel Data: Theory and an application to tax competition",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nLINK"
   },
   {
     "objectID": "posts/platforms_algorithms.html",

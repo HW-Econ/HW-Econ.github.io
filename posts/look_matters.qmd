@@ -10,7 +10,7 @@ categories:
 ---
 
 ## Link to Paper
-[Paper](https://www-sciencedirect-com.ezproxy1.hw.ac.uk/science/article/pii/S016726812300344X)
+[Paper](https://www.sciencedirect.com/science/article/pii/S016726812300344X?via%3Dihub)
 
 ## Presentation Slides
 [Slides](https://github.com/HW-Econ/HW-Econ.github.io/blob/12c047772a4168b90bb0ca485e3aca725cc10b4f/posts/files/MegAutumn23ReadingGroup.pdf)

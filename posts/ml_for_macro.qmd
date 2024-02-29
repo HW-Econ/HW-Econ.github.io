@@ -10,7 +10,7 @@ categories:
 ---
 
 ## Link to Paper
-[Paper](https://github.com/HW-Econ/HW-Econ.github.io/blob/12c047772a4168b90bb0ca485e3aca725cc10b4f/posts/files/J%20of%20Applied%20Econometrics%20-%202022%20-%20Goulet%20Coulombe%20-%20How%20is%20machine%20learning%20useful%20for%20macroeconomic%20forecasting.pdf)  
+[Paper](https://onlinelibrary.wiley.com/doi/abs/10.1002/jae.2910)  
 
 ## Presentation Slides
 [Slides](https://github.com/HW-Econ/HW-Econ.github.io/blob/385565a96cdfaefa167b487e3456eddc67a5b3fb/posts/files/RG_ML4Forecast_UPLOAD.pdf)

@@ -5,12 +5,12 @@ date: "12/8/2023"
 draft: false
 categories: 
     - RDD
-    - graphs
+    - Graphs
     - Visual inference
 ---
 
 ## Link to Paper
-[Paper](https://github.com/HW-Econ/HW-Econ.github.io/blob/2f0b1a7f114664c175f10df65beed3d0af85ee1d/posts/files/visual%20inference%20and%20graphic%20representation%20in%20RDD.pdf)  
+[Paper](https://academic.oup.com/qje/article-abstract/138/3/1977/7068116?redirectedFrom=fulltext)  
 
 ## Presentation Slides
 [Slides](https://github.com/HW-Econ/HW-Econ.github.io/blob/2f0b1a7f114664c175f10df65beed3d0af85ee1d/posts/files/Javid_slides.pdf)

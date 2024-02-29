@@ -13,7 +13,7 @@ resources:
 
 ## Link to Paper
 
-[Platform design when sellers use pricing algorithms (LINK)](https://github.com/HW-Econ/HW-Econ.github.io/blob/6e4fb3db71d36ed15d8d5797b3487db9a8c76809/posts/files/Econometrica%20-%202023%20-%20Johnson%20-%20Platform%20Design%20When%20Sellers%20Use%20Pricing%20Algorithms.pdf)
+[Platform design when sellers use pricing algorithms (LINK)](https://www.econometricsociety.org/publications/econometrica/2023/09/01/Platform-Design-When-Sellers-Use-Pricing-Algorithms)
 
 
 
