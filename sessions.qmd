@@ -16,6 +16,6 @@ title-block-banner: true
 ### Next Session
 6th Mar 2024 - Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. (2023). The Voice of Monetary Policy.
 
-[SLides (once available)]()  
+[SLides (once available)](https://github.com/HW-Econ/HW-Econ.github.io/blob/ce77cd3fa3a0bf11f54f6fa909aceab169acb0c3/posts/files/Meg%20Spring2024%20Reading%20Group.pdf)  
 
 ## Previous Sessions
