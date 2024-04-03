@@ -1,0 +1,15 @@
+---
+title: "When Should You Adjust Standard Errors for Clustering?"
+author: "George"
+date: "12/15/2023"
+draft: false
+categories: 
+    - Standard errors
+    - Estimators
+---
+
+## Link to Paper
+[LINK](https://academic.oup.com/qje/article/138/1/1/6750017)  
+
+## Presentation Slides
+[LINK](https://github.com/HW-Econ/HW-Econ.github.io/blob/6bbca81e0d0f575d2827c2d9d76e32cff8af7b79/posts/files/When%20to%20cluster%20reading%20group.pdf)
