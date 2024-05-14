@@ -10,8 +10,8 @@ title: "2024 Spring Schedule"
 | 28th Feb 2024 | [Chavleishvili, S., Manganelli, S. (2023). Forecasting and stress testing with quantile vector autoregression](https://onlinelibrary.wiley.com/doi/epdf/10.1002/jae.3009) | Tibor   |
 | 6th Mar 2024 | [Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. (2023). The Voice of Monetary Policy.](https://www.aeaweb.org/articles?id=10.1257/aer.20220129)| Meg   |
 | 20th Mar 2024  | [Kelly, M. (2019). The standard errors of persistence.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3398303)| George  |
-| 3rd Apr 2024 | [Kudlyak, M. (2014). The cyclicality of the user cost of labor](https://www.richmondfed.us/-/media/richmondfedorg/publications/research/working_papers/2009/pdf/wp09-12r.pdf)| Joao  |
-| 17th Apr 2024 | [Paul Goldsmith-Pinkham, Peter Hull, Michal Kolesar (2022). Contamination Bias in Linear Regressions](https://arxiv.org/abs/2106.05024) | Joe   |
+| 3rd Apr 2024 | [Paul Goldsmith-Pinkham, Peter Hull, Michal Kolesar (2022). Contamination Bias in Linear Regressions](https://arxiv.org/abs/2106.05024) | Joe   |
+| 17th Apr 2024 | [Kudlyak, M. (2014). The cyclicality of the user cost of labor](https://www.richmondfed.us/-/media/richmondfedorg/publications/research/working_papers/2009/pdf/wp09-12r.pdf)| Joao  |
 | 1st May 2024  | [Ederer, Tim. (2023). Labor market dynamics and teacher spatial sorting.](https://economics.yale.edu/sites/default/files/2024-01/JMP%20Draft.pdf)| Seva  |
 | 15th May 2024 | 2 Minutes Madness| Economics PhD  |
 | 30th May 2024 | DMOG training Economics (13:30 - 14:30, Thursday) |
