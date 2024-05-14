@@ -27,7 +27,7 @@ The papers can be accessed on the sessions page.
 3rd Apr: Kennedy boardroom, EBS ground floor<br>
 17th Apr: Kennedy boardroom, EBS ground floor<br>
 1st May: Kennedy boardroom, EBS ground floor<br>
-15th May: MBG20
+15th May: MBG20<br>
 30th May 13:30 - 14:30: MBG11 - Computer Laboratory (20) - SoSS
 
 The sessions will happen every (other) Wednesday from <strong>1pm</strong> to <strong>2pm</strong> till <strong>15th May</strong>.
