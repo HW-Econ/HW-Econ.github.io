@@ -1,40 +1,34 @@
 ---
-title: "2024 Spring Schedule"
+title: "2024 Autumn Schedule"
 ---
 <!-- To render the document -->
 <!-- quarto render -->
 
 | Date          | Authors & Title                                                                                          | Presenter |
 |---------------|---------------------------------------------------------------------------------------------------------|---------|
-| 14th Feb 2024 | [Rasul, I., Souza, P. and de Paula, A., (2023). Identifying Network Ties from Panel Data: Theory and an application to tax competition](https://arxiv.org/abs/1910.07452)| Haoyang   |
-| 28th Feb 2024 | [Chavleishvili, S., Manganelli, S. (2023). Forecasting and stress testing with quantile vector autoregression](https://onlinelibrary.wiley.com/doi/epdf/10.1002/jae.3009) | Tibor   |
-| 6th Mar 2024 | [Gorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. (2023). The Voice of Monetary Policy.](https://www.aeaweb.org/articles?id=10.1257/aer.20220129)| Meg   |
-| 20th Mar 2024  | [Kelly, M. (2019). The standard errors of persistence.](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3398303)| George  |
-| 3rd Apr 2024 | [Paul Goldsmith-Pinkham, Peter Hull, Michal Kolesar (2022). Contamination Bias in Linear Regressions](https://arxiv.org/abs/2106.05024) | Joe   |
-| 17th Apr 2024 | [Kudlyak, M. (2014). The cyclicality of the user cost of labor](https://www.richmondfed.us/-/media/richmondfedorg/publications/research/working_papers/2009/pdf/wp09-12r.pdf)| Joao  |
-| 1st May 2024  | [Ederer, Tim. (2023). Labor market dynamics and teacher spatial sorting.](https://economics.yale.edu/sites/default/files/2024-01/JMP%20Draft.pdf)| Seva  |
-| 15th May 2024 | 2 Minutes Madness| Economics PhD  |
-| 6th June 2024 | DMOG training Economics (14:30, Thursday) |
+| 1st Nov 2024 | [Magness, P.W. and Makovi, M. (2023), The Mainstreaming of Marx: Measuring the Effect of the Russian Revolution on Karl Marx’s Influence, The Journal of political economy](https://doi.org/10.1086/722933)| Javid   |
+| 15th Nov 2024 | [Jens Ludwig, Sendhil Mullainathan (2024), Machine Learning as a Tool for Hypothesis Generation, The Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjad055) | Haoyang   |
+| 22nd Nov 2024 | [Ashesh Rambachan (2024), Identifying Prediction Mistakes in Observational Data, The Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjae013)| Joe   |
+| 6th Dec 2024  | [Jonah M Rexer (2022) The Brides of Boko Haram: Economic Shocks, Marriage Practices, and Insurgency in Nigeria, The Economic Journal](https://doi.org/10.1093/ej/ueac003)| George  |
+| 20th Dec 2024 | [Chen and Roth (2023). Logs with Zeros? Some Problems and Solutions. The Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjad054) | Carlos   |
 
-## Accessing the papers
-The papers can be accessed on the sessions page. 
 
 ## Location and time
-14th Feb: The boardroom, EBS second floor<br>
-28th Feb: Kennedy boardroom, EBS ground floor<br>
-6th Mar: Kennedy boardroom, EBS ground floor<br>
-20th Mar: Kennedy boardroom, EBS ground floor <strong>12pm</strong> to <strong>1pm</strong><br>
-3rd Apr: Kennedy boardroom, EBS ground floor<br>
-17th Apr: Kennedy boardroom, EBS ground floor<br>
-1st May: Kennedy boardroom, EBS ground floor<br>
-15th May: MBG20<br>
-6th June 14:30: MBG11 - Computer Laboratory (20) - SoSS
+1st Nov: Kennedy boardroom, EBS ground floor<br>
+15th Nov: Kennedy boardroom, EBS ground floor<br>
+22nd Nov: Kennedy boardroom, EBS ground floor<br>
+6th Dec: Kennedy boardroom, EBS ground floor <br>
+20th Dec: Kennedy boardroom, EBS ground floor<br>
 
-The sessions will happen every (other) Wednesday from <strong>1pm</strong> to <strong>2pm</strong> till <strong>15th May</strong>.
+
+The sessions will happen on Fridays from <strong>11:30am</strong> to <strong>12:30pm</strong>.
 
 ## Zoom link
-The zoom link for the reading group is: [link](https://zoom.us/j/92191631609?pwd=bHFsN0p1MXh6UlhRT0tiZk90MklBQT09) 
+The zoom link for the reading group is: [link](https://zoom.us/j/92927433278?pwd=tEPRZX0ep81DzWzEqn9gHcCHE3GXMy.1) 
 
-Meeting ID: 921 9163 1609
+Meeting ID: 929 2743 3278
 
-Pass: Top-N
+Pass: Robinson
+
+## Calendar for download
+You can download the calendar for the reading group [here](https://zoom.us/meeting/tJYkde6srTgoHdzLW2LvOZSuTXiY58bPon1U/ics?icsToken=98tyKuCqpzktHteWsh6PRowQHYjoKOjztnZBgqdHsCi3LzZ8WDDjAtpLC-cnEujf&meetingMasterEventId=LpT6qYf2RC2RqJDLGADX_Q)
