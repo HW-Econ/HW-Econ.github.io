@@ -4,14 +4,7 @@
     "href": "sessions.html",
     "title": "Sessions",
     "section": "",
-    "text": "15th May 2024 - 2 minutes madness - 8 minutes of discussion"
-  },
-  {
-    "objectID": "sessions.html#previous-sessions",
-    "href": "sessions.html#previous-sessions",
-    "title": "Sessions",
-    "section": "Previous Sessions",
-    "text": "Previous Sessions"
+    "text": "Next Session\n1st Nov 2024 - Magness, P.W. and Makovi, M. (2023), The Mainstreaming of Marx: Measuring the Effect of the Russian Revolution on Karl Marx�s Influence, The Journal of political economy ## Previous Sessions\n\n\n\n\n\n\n\n\n\n  \n\n\n\n\nContamination Bias in Linear Regression\n\n\n\n\n\n\n\nOLS\n\n\nEstimators\n\n\nRCT\n\n\n\n\n\n\n\n\n\n\n\nApr 3, 2024\n\n\nJoe\n\n\n\n\n\n\n  \n\n\n\n\nForecasting and stress testing with quantile vector autoregression\n\n\n\n\n\n\n\nQuantile regression\n\n\nVAR\n\n\n\n\n\n\n\n\n\n\n\nFeb 28, 2024\n\n\nTibor\n\n\n\n\n\n\n  \n\n\n\n\nIdentifying Network Ties from Panel Data: Theory and an application to tax competition\n\n\n\n\n\n\n\nNetwork\n\n\nIdentification\n\n\nGMM\n\n\n\n\n\n\n\n\n\n\n\nFeb 12, 2024\n\n\nHaoyang\n\n\n\n\n\n\n  \n\n\n\n\nWhen Should You Adjust Standard Errors for Clustering?\n\n\n\n\n\n\n\nStandard errors\n\n\nEstimators\n\n\n\n\n\n\n\n\n\n\n\nDec 15, 2023\n\n\nGeorge\n\n\n\n\n\n\n  \n\n\n\n\nVisual Inference and Graphical Representation in RDDs\n\n\n\n\n\n\n\nRDD\n\n\nGraphs\n\n\nVisual inference\n\n\n\n\n\n\n\n\n\n\n\nDec 8, 2023\n\n\nJavid\n\n\n\n\n\n\n  \n\n\n\n\nHow is machine learning useful for macroeconomic forecasting?\n\n\n\n\n\n\n\nBig Data\n\n\nforecasting\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nDec 1, 2023\n\n\nTibor\n\n\n\n\n\n\n  \n\n\n\n\nDo looks matter for an academic career in economics?\n\n\n\n\n\n\n\nAppearance\n\n\nStatistical discrimination\n\n\nEconomists\n\n\n\n\n\n\n\n\n\n\n\nNov 24, 2023\n\n\nMeg Sullivan\n\n\n\n\n\n\n  \n\n\n\n\nUsing Wasserstein GANs for Monte Carlo simulations\n\n\n\n\n\n\n\nGANs\n\n\nMonte Carlo\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nNov 17, 2023\n\n\nSeva\n\n\n\n\n\n\n  \n\n\n\n\nSendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach\n\n\n\n\n\n\n\nHealth\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nNov 3, 2023\n\n\nJoe Paul\n\n\n\n\n\n\n  \n\n\n\n\nPlatform design when sellers use pricing algorithms\n\n\n\n\n\n\n\nMechanism Design\n\n\nMachine Learning\n\n\n\n\n\n\n\n\n\n\n\nOct 27, 2023\n\n\nHaoyang Li\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/platforms_algorithms.html",
@@ -100,30 +93,30 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "2024 Spring Schedule",
+    "title": "2024 Autumn Schedule",
     "section": "",
-    "text": "Date\nAuthors & Title\nPresenter\n\n\n\n\n14th Feb 2024\nRasul, I., Souza, P. and de Paula, A., (2023). Identifying Network Ties from Panel Data: Theory and an application to tax competition\nHaoyang\n\n\n28th Feb 2024\nChavleishvili, S., Manganelli, S. (2023). Forecasting and stress testing with quantile vector autoregression\nTibor\n\n\n6th Mar 2024\nGorodnichenko, Yuriy, Tho Pham, and Oleksandr Talavera. (2023). The Voice of Monetary Policy.\nMeg\n\n\n20th Mar 2024\nKelly, M. (2019). The standard errors of persistence.\nGeorge\n\n\n3rd Apr 2024\nPaul Goldsmith-Pinkham, Peter Hull, Michal Kolesar (2022). Contamination Bias in Linear Regressions\nJoe\n\n\n17th Apr 2024\nKudlyak, M. (2014). The cyclicality of the user cost of labor\nJoao\n\n\n1st May 2024\nEderer, Tim. (2023). Labor market dynamics and teacher spatial sorting.\nSeva\n\n\n15th May 2024\n2 Minutes Madness\nEconomics PhD\n\n\n6th June 2024\nDMOG training Economics (14:30, Thursday)"
-  },
-  {
-    "objectID": "index.html#accessing-the-papers",
-    "href": "index.html#accessing-the-papers",
-    "title": "2024 Spring Schedule",
-    "section": "Accessing the papers",
-    "text": "Accessing the papers\nThe papers can be accessed on the sessions page."
+    "text": "Date\nAuthors & Title\nPresenter\n\n\n\n\n1st Nov 2024\nMagness, P.W. and Makovi, M. (2023), The Mainstreaming of Marx: Measuring the Effect of the Russian Revolution on Karl Marx�s Influence, The Journal of political economy\nJavid\n\n\n15th Nov 2024\nJens Ludwig, Sendhil Mullainathan (2024), Machine Learning as a Tool for Hypothesis Generation, The Quarterly Journal of Economics\nHaoyang\n\n\n22nd Nov 2024\nAshesh Rambachan (2024), Identifying Prediction Mistakes in Observational Data, The Quarterly Journal of Economics\nJoe\n\n\n6th Dec 2024\nJonah M Rexer (2022) The Brides of Boko Haram: Economic Shocks, Marriage Practices, and Insurgency in Nigeria, The Economic Journal\nGeorge\n\n\n20th Dec 2024\nChen and Roth (2023). Logs with Zeros? Some Problems and Solutions. The Quarterly Journal of Economics\nCarlos"
   },
   {
     "objectID": "index.html#location-and-time",
     "href": "index.html#location-and-time",
-    "title": "2024 Spring Schedule",
+    "title": "2024 Autumn Schedule",
     "section": "Location and time",
-    "text": "Location and time\n14th Feb: The boardroom, EBS second floor 28th Feb: Kennedy boardroom, EBS ground floor 6th Mar: Kennedy boardroom, EBS ground floor 20th Mar: Kennedy boardroom, EBS ground floor 12pm to 1pm 3rd Apr: Kennedy boardroom, EBS ground floor 17th Apr: Kennedy boardroom, EBS ground floor 1st May: Kennedy boardroom, EBS ground floor 15th May: MBG20 6th June 14:30: MBG11 - Computer Laboratory (20) - SoSS\nThe sessions will happen every (other) Wednesday from 1pm to 2pm till 15th May."
+    "text": "Location and time\n1st Nov: Kennedy boardroom, EBS ground floor 15th Nov: Kennedy boardroom, EBS ground floor 22nd Nov: Kennedy boardroom, EBS ground floor 6th Dec: Kennedy boardroom, EBS ground floor  20th Dec: Kennedy boardroom, EBS ground floor\nThe sessions will happen on Fridays from 11:30am to 12:30pm."
   },
   {
     "objectID": "index.html#zoom-link",
     "href": "index.html#zoom-link",
-    "title": "2024 Spring Schedule",
+    "title": "2024 Autumn Schedule",
     "section": "Zoom link",
-    "text": "Zoom link\nThe zoom link for the reading group is: link\nMeeting ID: 921 9163 1609\nPass: Top-N"
+    "text": "Zoom link\nThe zoom link for the reading group is: link\nMeeting ID: 929 2743 3278\nPass: Robinson"
+  },
+  {
+    "objectID": "index.html#calendar-for-download",
+    "href": "index.html#calendar-for-download",
+    "title": "2024 Autumn Schedule",
+    "section": "Calendar for download",
+    "text": "Calendar for download\nYou can download the calendar for the reading group here"
   },
   {
     "objectID": "posts/cluster_for_sd.html",
