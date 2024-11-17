@@ -1,0 +1,9 @@
+---
+title: "My Presentation Title"
+---
+
+[Open presentation in new window](files/test_html_pres.html){target="_blank"}
+
+Here is my presentation:
+
+<iframe src="files/test_html_pres.html" width="100%" height="600px" frameborder="0"></iframe>
