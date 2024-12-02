@@ -1,0 +1,13 @@
+---
+title: "Identifying Prediction Mistakes in Observational Data"
+author: "Joseph Paul"
+date: "11/17/2024"
+draft: false
+categories: 
+    - Econometrics
+    - Decision Theory
+    - Machine Learning
+
+---
+
+[Open presentation in new window](https://github.com/HW-Econ/HW-Econ.github.io/blob/main/posts/files/Prediction-mistakes.pdf){target="_blank"}

@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.3.450">
+<meta name="generator" content="quarto-1.5.57">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Economics PhD Reading Group - Sessions</title>
+<title>Sessions – Economics PhD Reading Group</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -47,7 +47,13 @@ ul.task-list li input[type="checkbox"] {
   "collapse-after": 3,
   "panel-placement": "end",
   "type": "overlay",
-  "limit": 20,
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
   "language": {
     "search-no-results-text": "No results",
     "search-matching-documents-text": "matching documents",
@@ -56,6 +62,7 @@ ul.task-list li input[type="checkbox"] {
     "search-more-match-text": "more match in this document",
     "search-more-matches-text": "more matches in this document",
     "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
     "search-detached-cancel-button-title": "Cancel",
     "search-submit-button-title": "Submit",
     "search-label": "Search"
@@ -91,8 +98,35 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
   <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -100,32 +134,32 @@ ul.task-list li input[type="checkbox"] {
 <body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg navbar-dark ">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container">
+      <div class="navbar-brand-container mx-auto">
     <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Economics PhD Reading Group</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html" rel="" target="">
- <span class="menu-text">Schedule</span></a>
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Schedule</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./sessions.html" rel="" target="" aria-current="page">
- <span class="menu-text">Sessions</span></a>
+    <a class="nav-link active" href="./sessions.html" aria-current="page"> 
+<span class="menu-text">Sessions</span></a>
   </li>  
 </ul>
-            <div class="quarto-navbar-tools ms-auto">
-</div>
           </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
       </div> <!-- /container-fluid -->
     </nav>
 </header>
@@ -138,7 +172,7 @@ ul.task-list li input[type="checkbox"] {
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page-left">
 
       
     
@@ -150,9 +184,10 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(10)</span></div><div class="category" data-category="Appearance">Appearance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Big Data">Big Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Economists">Economists <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Estimators">Estimators <span class="quarto-category-count">(2)</span></div><div class="category" data-category="GANs">GANs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="GMM">GMM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Graphs">Graphs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Health">Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Identification">Identification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Mechanism Design">Mechanism Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Monte Carlo">Monte Carlo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Network">Network <span class="quarto-category-count">(1)</span></div><div class="category" data-category="OLS">OLS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quantile regression">Quantile regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RCT">RCT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RDD">RDD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Standard errors">Standard errors <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Statistical discrimination">Statistical discrimination <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VAR">VAR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Visual inference">Visual inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="forecasting">forecasting <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(11)</span></div><div class="category" data-category="Appearance">Appearance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Big Data">Big Data <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Decision Theory">Decision Theory <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Econometrics">Econometrics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Economists">Economists <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Estimators">Estimators <span class="quarto-category-count">(2)</span></div><div class="category" data-category="GANs">GANs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="GMM">GMM <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Graphs">Graphs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Health">Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Identification">Identification <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Machine Learning">Machine Learning <span class="quarto-category-count">(5)</span></div><div class="category" data-category="Mechanism Design">Mechanism Design <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Monte Carlo">Monte Carlo <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Network">Network <span class="quarto-category-count">(1)</span></div><div class="category" data-category="OLS">OLS <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Quantile regression">Quantile regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RCT">RCT <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RDD">RDD <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Standard errors">Standard errors <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Statistical discrimination">Statistical discrimination <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VAR">VAR <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Visual inference">Visual inference <span class="quarto-category-count">(1)</span></div><div class="category" data-category="forecasting">forecasting <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
+
 
 
 
@@ -170,19 +205,58 @@ ul.task-list li input[type="checkbox"] {
 
 <div class="quarto-listing quarto-listing-container-default" id="listing-listing">
 <div class="list quarto-listing-default">
-<div class="quarto-post image-right" data-index="0" data-categories="OLS,Estimators,RCT" data-listing-date-sort="1712098800000" data-listing-file-modified-sort="1715688974705" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="0" data-categories="Econometrics,Decision Theory,Machine Learning" data-listing-date-sort="1731801600000" data-listing-file-modified-sort="1732273997739" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/Contamination_bias1.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/pred_mis_obs.html" class="no-external"></a></p><a href="./posts/pred_mis_obs.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/pred_mis_obs.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/Contamination_bias1.html">
 <h3 class="no-anchor listing-title">
-Contamination Bias in Linear Regression
+<a href="./posts/pred_mis_obs.html" class="no-external">Identifying Prediction Mistakes in Observational Data</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/pred_mis_obs.html" class="no-external"></a>
+</div>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('Econometrics'); return false;">
+Econometrics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Decision Theory'); return false;">
+Decision Theory
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('Machine Learning'); return false;">
+Machine Learning
+</div>
+</div>
+<div class="listing-description">
+<a href="./posts/pred_mis_obs.html" class="no-external">Open presentation in new window</a>
+</div>
+</div>
+<div class="metadata">
+<a href="./posts/pred_mis_obs.html" class="no-external">
+<div class="listing-date">
+Nov 17, 2024
+</div>
+<div class="listing-author">
+Joseph Paul
 </div>
 </a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="OLS,Estimators,RCT" data-listing-date-sort="1712098800000" data-listing-file-modified-sort="1712144227936" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
+<div class="thumbnail">
+<p><a href="./posts/Contamination_bias1.html" class="no-external"></a></p><a href="./posts/Contamination_bias1.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/Contamination_bias1.html" class="no-external"></a></p>
+</div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/Contamination_bias1.html" class="no-external">Contamination Bias in Linear Regression</a>
+</h3>
+<div class="listing-subtitle">
+<a href="./posts/Contamination_bias1.html" class="no-external"></a>
+</div>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('OLS'); return false;">
 OLS
@@ -194,14 +268,12 @@ Estimators
 RCT
 </div>
 </div>
-<a href="./posts/Contamination_bias1.html">
 <div class="listing-description">
-LINK
+<a href="./posts/Contamination_bias1.html" class="no-external">LINK</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/Contamination_bias1.html">
+<a href="./posts/Contamination_bias1.html" class="no-external">
 <div class="listing-date">
 Apr 3, 2024
 </div>
@@ -211,19 +283,19 @@ Joe
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="1" data-categories="Quantile regression,VAR" data-listing-date-sort="1709078400000" data-listing-file-modified-sort="1709238185262" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="2" data-categories="Quantile regression,VAR" data-listing-date-sort="1709078400000" data-listing-file-modified-sort="1710844945637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/QVAR.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/QVAR.html" class="no-external"></a></p><a href="./posts/QVAR.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/QVAR.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/QVAR.html">
 <h3 class="no-anchor listing-title">
-Forecasting and stress testing with quantile vector autoregression
+<a href="./posts/QVAR.html" class="no-external">Forecasting and stress testing with quantile vector autoregression</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/QVAR.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Quantile regression'); return false;">
 Quantile regression
@@ -232,14 +304,12 @@ Quantile regression
 VAR
 </div>
 </div>
-<a href="./posts/QVAR.html">
 <div class="listing-description">
-LINK
+<a href="./posts/QVAR.html" class="no-external">LINK</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/QVAR.html">
+<a href="./posts/QVAR.html" class="no-external">
 <div class="listing-date">
 Feb 28, 2024
 </div>
@@ -249,19 +319,19 @@ Tibor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="2" data-categories="Network,Identification,GMM" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1709237821298" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="3" data-categories="Network,Identification,GMM" data-listing-date-sort="1707696000000" data-listing-file-modified-sort="1710844945652" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/network_ties.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/network_ties.html" class="no-external"></a></p><a href="./posts/network_ties.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/network_ties.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/network_ties.html">
 <h3 class="no-anchor listing-title">
-Identifying Network Ties from Panel Data: Theory and an application to tax competition
+<a href="./posts/network_ties.html" class="no-external">Identifying Network Ties from Panel Data: Theory and an application to tax competition</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/network_ties.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Network'); return false;">
 Network
@@ -273,14 +343,12 @@ Identification
 GMM
 </div>
 </div>
-<a href="./posts/network_ties.html">
 <div class="listing-description">
-LINK
+<a href="./posts/network_ties.html" class="no-external">LINK</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/network_ties.html">
+<a href="./posts/network_ties.html" class="no-external">
 <div class="listing-date">
 Feb 12, 2024
 </div>
@@ -290,19 +358,19 @@ Haoyang
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="3" data-categories="Standard errors,Estimators" data-listing-date-sort="1702598400000" data-listing-file-modified-sort="1709237594828" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="4" data-categories="Standard errors,Estimators" data-listing-date-sort="1702598400000" data-listing-file-modified-sort="1710844945638" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/cluster_for_sd.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/cluster_for_sd.html" class="no-external"></a></p><a href="./posts/cluster_for_sd.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/cluster_for_sd.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/cluster_for_sd.html">
 <h3 class="no-anchor listing-title">
-When Should You Adjust Standard Errors for Clustering?
+<a href="./posts/cluster_for_sd.html" class="no-external">When Should You Adjust Standard Errors for Clustering?</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/cluster_for_sd.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Standard errors'); return false;">
 Standard errors
@@ -311,14 +379,12 @@ Standard errors
 Estimators
 </div>
 </div>
-<a href="./posts/cluster_for_sd.html">
 <div class="listing-description">
-LINK
+<a href="./posts/cluster_for_sd.html" class="no-external">LINK</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/cluster_for_sd.html">
+<a href="./posts/cluster_for_sd.html" class="no-external">
 <div class="listing-date">
 Dec 15, 2023
 </div>
@@ -328,19 +394,19 @@ George
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="4" data-categories="RDD,Graphs,Visual inference" data-listing-date-sort="1701993600000" data-listing-file-modified-sort="1709238021015" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="5" data-categories="RDD,Graphs,Visual inference" data-listing-date-sort="1701993600000" data-listing-file-modified-sort="1710844945657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/visual_inference_RDD.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/visual_inference_RDD.html" class="no-external"></a></p><a href="./posts/visual_inference_RDD.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/visual_inference_RDD.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/visual_inference_RDD.html">
 <h3 class="no-anchor listing-title">
-Visual Inference and Graphical Representation in RDDs
+<a href="./posts/visual_inference_RDD.html" class="no-external">Visual Inference and Graphical Representation in RDDs</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/visual_inference_RDD.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('RDD'); return false;">
 RDD
@@ -352,14 +418,12 @@ Graphs
 Visual inference
 </div>
 </div>
-<a href="./posts/visual_inference_RDD.html">
 <div class="listing-description">
-Paper
+<a href="./posts/visual_inference_RDD.html" class="no-external">Paper</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/visual_inference_RDD.html">
+<a href="./posts/visual_inference_RDD.html" class="no-external">
 <div class="listing-date">
 Dec 8, 2023
 </div>
@@ -369,19 +433,19 @@ Javid
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="5" data-categories="Big Data,forecasting,Machine Learning" data-listing-date-sort="1701388800000" data-listing-file-modified-sort="1709237812137" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="6" data-categories="Big Data,forecasting,Machine Learning" data-listing-date-sort="1701388800000" data-listing-file-modified-sort="1710844945652" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/ml_for_macro.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/ml_for_macro.html" class="no-external"></a></p><a href="./posts/ml_for_macro.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/ml_for_macro.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/ml_for_macro.html">
 <h3 class="no-anchor listing-title">
-How is machine learning useful for macroeconomic forecasting?
+<a href="./posts/ml_for_macro.html" class="no-external">How is machine learning useful for macroeconomic forecasting?</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/ml_for_macro.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Big Data'); return false;">
 Big Data
@@ -393,14 +457,12 @@ forecasting
 Machine Learning
 </div>
 </div>
-<a href="./posts/ml_for_macro.html">
 <div class="listing-description">
-Paper
+<a href="./posts/ml_for_macro.html" class="no-external">Paper</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/ml_for_macro.html">
+<a href="./posts/ml_for_macro.html" class="no-external">
 <div class="listing-date">
 Dec 1, 2023
 </div>
@@ -410,19 +472,19 @@ Tibor
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="6" data-categories="Appearance,Statistical discrimination,Economists" data-listing-date-sort="1700784000000" data-listing-file-modified-sort="1709237782592" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="7" data-categories="Appearance,Statistical discrimination,Economists" data-listing-date-sort="1700784000000" data-listing-file-modified-sort="1710844945652" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="3">
 <div class="thumbnail">
-<p><a href="./posts/look_matters.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/look_matters.html" class="no-external"></a></p><a href="./posts/look_matters.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/look_matters.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/look_matters.html">
 <h3 class="no-anchor listing-title">
-Do looks matter for an academic career in economics?
+<a href="./posts/look_matters.html" class="no-external">Do looks matter for an academic career in economics?</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/look_matters.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Appearance'); return false;">
 Appearance
@@ -434,14 +496,12 @@ Statistical discrimination
 Economists
 </div>
 </div>
-<a href="./posts/look_matters.html">
 <div class="listing-description">
-Paper
+<a href="./posts/look_matters.html" class="no-external">Paper</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/look_matters.html">
+<a href="./posts/look_matters.html" class="no-external">
 <div class="listing-date">
 Nov 24, 2023
 </div>
@@ -451,19 +511,19 @@ Meg Sullivan
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="7" data-categories="GANs,Monte Carlo,Machine Learning" data-listing-date-sort="1700179200000" data-listing-file-modified-sort="1709237651675" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="8" data-categories="GANs,Monte Carlo,Machine Learning" data-listing-date-sort="1700179200000" data-listing-file-modified-sort="1710844945637" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="5">
 <div class="thumbnail">
-<p><a href="./posts/GANS.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/GANS.html" class="no-external"></a></p><a href="./posts/GANS.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/GANS.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/GANS.html">
 <h3 class="no-anchor listing-title">
-Using Wasserstein GANs for Monte Carlo simulations
+<a href="./posts/GANS.html" class="no-external">Using Wasserstein GANs for Monte Carlo simulations</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/GANS.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('GANs'); return false;">
 GANs
@@ -475,14 +535,12 @@ Monte Carlo
 Machine Learning
 </div>
 </div>
-<a href="./posts/GANS.html">
 <div class="listing-description">
-LINK
+<a href="./posts/GANS.html" class="no-external">LINK</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/GANS.html">
+<a href="./posts/GANS.html" class="no-external">
 <div class="listing-date">
 Nov 17, 2023
 </div>
@@ -492,19 +550,19 @@ Seva
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="8" data-categories="Health,Machine Learning" data-listing-date-sort="1698969600000" data-listing-file-modified-sort="1709237935883" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="9" data-categories="Health,Machine Learning" data-listing-date-sort="1698969600000" data-listing-file-modified-sort="1710844945656" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
 <div class="thumbnail">
-<p><a href="./posts/physician_error.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/physician_error.html" class="no-external"></a></p><a href="./posts/physician_error.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/physician_error.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/physician_error.html">
 <h3 class="no-anchor listing-title">
-Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach
+<a href="./posts/physician_error.html" class="no-external">Sendhil Mullainathan, Ziad Obermeyer (2022): Diagnosing Physician Error: A Machine Learning Approach</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/physician_error.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Health'); return false;">
 Health
@@ -513,14 +571,12 @@ Health
 Machine Learning
 </div>
 </div>
-<a href="./posts/physician_error.html">
 <div class="listing-description">
-Paper
+<a href="./posts/physician_error.html" class="no-external">Paper</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/physician_error.html">
+<a href="./posts/physician_error.html" class="no-external">
 <div class="listing-date">
 Nov 3, 2023
 </div>
@@ -530,19 +586,19 @@ Joe Paul
 </a>
 </div>
 </div>
-<div class="quarto-post image-right" data-index="9" data-categories="Mechanism Design,Machine Learning" data-listing-date-sort="1698361200000" data-listing-file-modified-sort="1709237990791" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1">
+<div class="quarto-post image-right" data-index="10" data-categories="Mechanism Design,Machine Learning" data-listing-date-sort="1698361200000" data-listing-file-modified-sort="1710844945657" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="11">
 <div class="thumbnail">
-<p><a href="./posts/platforms_algorithms.html"> <div class="listing-item-img-placeholder card-img-top" >&nbsp;</div> </a></p>
+<p><a href="./posts/platforms_algorithms.html" class="no-external"></a></p><a href="./posts/platforms_algorithms.html" class="no-external">
+<div class="listing-item-img-placeholder card-img-top" >&nbsp;</div>
+</a><p><a href="./posts/platforms_algorithms.html" class="no-external"></a></p>
 </div>
 <div class="body">
-<a href="./posts/platforms_algorithms.html">
 <h3 class="no-anchor listing-title">
-Platform design when sellers use pricing algorithms
+<a href="./posts/platforms_algorithms.html" class="no-external">Platform design when sellers use pricing algorithms</a>
 </h3>
 <div class="listing-subtitle">
-
+<a href="./posts/platforms_algorithms.html" class="no-external"></a>
 </div>
-</a>
 <div class="listing-categories">
 <div class="listing-category" onclick="window.quartoListingCategory('Mechanism Design'); return false;">
 Mechanism Design
@@ -551,14 +607,12 @@ Mechanism Design
 Machine Learning
 </div>
 </div>
-<a href="./posts/platforms_algorithms.html">
 <div class="listing-description">
-Platform design when sellers use pricing algorithms (LINK)
+<a href="./posts/platforms_algorithms.html" class="no-external">Platform design when sellers use pricing algorithms (LINK)</a>
 </div>
-</a>
 </div>
 <div class="metadata">
-<a href="./posts/platforms_algorithms.html">
+<a href="./posts/platforms_algorithms.html" class="no-external">
 <div class="listing-date">
 Oct 27, 2023
 </div>
@@ -608,18 +662,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
     return false;
   }
-  const clipboard = new window.ClipboardJS('.code-copy-button', {
-    text: function(trigger) {
-      const codeEl = trigger.previousElementSibling.cloneNode(true);
-      for (const childEl of codeEl.children) {
-        if (isCodeAnnotation(childEl)) {
-          childEl.remove();
-        }
-      }
-      return codeEl.innerText;
-    }
-  });
-  clipboard.on('success', function(e) {
+  const onCopySuccess = function(e) {
     // button target
     const button = e.trigger;
     // don't keep focus
@@ -651,11 +694,50 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }, 1000);
     // clear code selection
     e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
   });
-  function tippyHover(el, contentFn) {
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    // For code content inside modals, clipBoardJS needs to be initialized with a container option
+    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
-      content: contentFn,
       maxWidth: 500,
       delay: 100,
       arrow: false,
@@ -665,8 +747,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       interactive: true,
       interactiveBorder: 10,
       theme: 'quarto',
-      placement: 'bottom-start'
+      placement: 'bottom-start',
     };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
     window.tippy(el, config); 
   }
   const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
@@ -678,7 +769,130 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      // TODO in 1.5, we should make sure this works without a callout special case
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
     });
   }
       let selectedAnnoteEl;
@@ -722,6 +936,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
             }
             div.style.top = top - 2 + "px";
             div.style.height = height + 4 + "px";
+            div.style.left = 0;
             let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
             if (gutterDiv === null) {
               gutterDiv = window.document.createElement("div");
@@ -747,6 +962,32 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
         });
         selectedAnnoteEl = undefined;
       };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
       // Attach click handler to the DT
       const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
       for (const annoteDlNode of annoteDls) {
@@ -807,6 +1048,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 });
 </script>
 </div> <!-- /content -->
+
 
 
 

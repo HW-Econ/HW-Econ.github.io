@@ -2,6 +2,7 @@
   {
     "listing": "/sessions.html",
     "items": [
+      "/posts/pred_mis_obs.html",
       "/posts/Contamination_bias1.html",
       "/posts/QVAR.html",
       "/posts/network_ties.html",

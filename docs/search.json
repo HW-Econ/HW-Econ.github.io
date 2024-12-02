@@ -1,103 +1,5 @@
 [
   {
-    "objectID": "sessions.html",
-    "href": "sessions.html",
-    "title": "Sessions",
-    "section": "",
-    "text": "1st Nov 2024 - Magness, P.W. and Makovi, M. (2023), The Mainstreaming of Marx: Measuring the Effect of the Russian Revolution on Karl Marx�s Influence, The Journal of political economy"
-  },
-  {
-    "objectID": "sessions.html#previous-sessions",
-    "href": "sessions.html#previous-sessions",
-    "title": "Sessions",
-    "section": "Previous Sessions",
-    "text": "Previous Sessions"
-  },
-  {
-    "objectID": "posts/platforms_algorithms.html",
-    "href": "posts/platforms_algorithms.html",
-    "title": "Platform design when sellers use pricing algorithms",
-    "section": "",
-    "text": "Platform design when sellers use pricing algorithms (LINK)"
-  },
-  {
-    "objectID": "posts/platforms_algorithms.html#link-to-paper",
-    "href": "posts/platforms_algorithms.html#link-to-paper",
-    "title": "Platform design when sellers use pricing algorithms",
-    "section": "",
-    "text": "Platform design when sellers use pricing algorithms (LINK)"
-  },
-  {
-    "objectID": "posts/platforms_algorithms.html#presentation-slides",
-    "href": "posts/platforms_algorithms.html#presentation-slides",
-    "title": "Platform design when sellers use pricing algorithms",
-    "section": "Presentation Slides",
-    "text": "Presentation Slides\nPresentation Slides"
-  },
-  {
-    "objectID": "posts/network_ties.html",
-    "href": "posts/network_ties.html",
-    "title": "Identifying Network Ties from Panel Data: Theory and an application to tax competition",
-    "section": "",
-    "text": "LINK"
-  },
-  {
-    "objectID": "posts/network_ties.html#link-to-paper",
-    "href": "posts/network_ties.html#link-to-paper",
-    "title": "Identifying Network Ties from Panel Data: Theory and an application to tax competition",
-    "section": "",
-    "text": "LINK"
-  },
-  {
-    "objectID": "posts/network_ties.html#presentation-slides",
-    "href": "posts/network_ties.html#presentation-slides",
-    "title": "Identifying Network Ties from Panel Data: Theory and an application to tax competition",
-    "section": "Presentation Slides",
-    "text": "Presentation Slides\nLINK"
-  },
-  {
-    "objectID": "posts/look_matters.html",
-    "href": "posts/look_matters.html",
-    "title": "Do looks matter for an academic career in economics?",
-    "section": "",
-    "text": "Paper"
-  },
-  {
-    "objectID": "posts/look_matters.html#link-to-paper",
-    "href": "posts/look_matters.html#link-to-paper",
-    "title": "Do looks matter for an academic career in economics?",
-    "section": "",
-    "text": "Paper"
-  },
-  {
-    "objectID": "posts/look_matters.html#presentation-slides",
-    "href": "posts/look_matters.html#presentation-slides",
-    "title": "Do looks matter for an academic career in economics?",
-    "section": "Presentation Slides",
-    "text": "Presentation Slides\nSlides"
-  },
-  {
-    "objectID": "posts/Contamination_bias1.html",
-    "href": "posts/Contamination_bias1.html",
-    "title": "Contamination Bias in Linear Regression",
-    "section": "",
-    "text": "LINK"
-  },
-  {
-    "objectID": "posts/Contamination_bias1.html#link-to-paper",
-    "href": "posts/Contamination_bias1.html#link-to-paper",
-    "title": "Contamination Bias in Linear Regression",
-    "section": "",
-    "text": "LINK"
-  },
-  {
-    "objectID": "posts/Contamination_bias1.html#presentation-slides",
-    "href": "posts/Contamination_bias1.html#presentation-slides",
-    "title": "Contamination Bias in Linear Regression",
-    "section": "Presentation Slides",
-    "text": "Presentation Slides\nLINK"
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "2024 Autumn Schedule",
@@ -126,23 +28,51 @@
     "text": "Calendar for download\nYou can download the calendar for the reading group here"
   },
   {
-    "objectID": "posts/cluster_for_sd.html",
-    "href": "posts/cluster_for_sd.html",
-    "title": "When Should You Adjust Standard Errors for Clustering?",
+    "objectID": "posts/Contamination_bias1.html",
+    "href": "posts/Contamination_bias1.html",
+    "title": "Contamination Bias in Linear Regression",
     "section": "",
     "text": "LINK"
   },
   {
-    "objectID": "posts/cluster_for_sd.html#link-to-paper",
-    "href": "posts/cluster_for_sd.html#link-to-paper",
-    "title": "When Should You Adjust Standard Errors for Clustering?",
+    "objectID": "posts/Contamination_bias1.html#link-to-paper",
+    "href": "posts/Contamination_bias1.html#link-to-paper",
+    "title": "Contamination Bias in Linear Regression",
     "section": "",
     "text": "LINK"
   },
   {
-    "objectID": "posts/cluster_for_sd.html#presentation-slides",
-    "href": "posts/cluster_for_sd.html#presentation-slides",
-    "title": "When Should You Adjust Standard Errors for Clustering?",
+    "objectID": "posts/Contamination_bias1.html#presentation-slides",
+    "href": "posts/Contamination_bias1.html#presentation-slides",
+    "title": "Contamination Bias in Linear Regression",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nLINK"
+  },
+  {
+    "objectID": "posts/pred_mis_obs.html",
+    "href": "posts/pred_mis_obs.html",
+    "title": "Identifying Prediction Mistakes in Observational Data",
+    "section": "",
+    "text": "Open presentation in new window"
+  },
+  {
+    "objectID": "posts/network_ties.html",
+    "href": "posts/network_ties.html",
+    "title": "Identifying Network Ties from Panel Data: Theory and an application to tax competition",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/network_ties.html#link-to-paper",
+    "href": "posts/network_ties.html#link-to-paper",
+    "title": "Identifying Network Ties from Panel Data: Theory and an application to tax competition",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/network_ties.html#presentation-slides",
+    "href": "posts/network_ties.html#presentation-slides",
+    "title": "Identifying Network Ties from Panel Data: Theory and an application to tax competition",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nLINK"
   },
@@ -168,23 +98,44 @@
     "text": "Presentation Slides\nLINK"
   },
   {
-    "objectID": "posts/ml_for_macro.html",
-    "href": "posts/ml_for_macro.html",
-    "title": "How is machine learning useful for macroeconomic forecasting?",
+    "objectID": "posts/cluster_for_sd.html",
+    "href": "posts/cluster_for_sd.html",
+    "title": "When Should You Adjust Standard Errors for Clustering?",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/cluster_for_sd.html#link-to-paper",
+    "href": "posts/cluster_for_sd.html#link-to-paper",
+    "title": "When Should You Adjust Standard Errors for Clustering?",
+    "section": "",
+    "text": "LINK"
+  },
+  {
+    "objectID": "posts/cluster_for_sd.html#presentation-slides",
+    "href": "posts/cluster_for_sd.html#presentation-slides",
+    "title": "When Should You Adjust Standard Errors for Clustering?",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nLINK"
+  },
+  {
+    "objectID": "posts/look_matters.html",
+    "href": "posts/look_matters.html",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/ml_for_macro.html#link-to-paper",
-    "href": "posts/ml_for_macro.html#link-to-paper",
-    "title": "How is machine learning useful for macroeconomic forecasting?",
+    "objectID": "posts/look_matters.html#link-to-paper",
+    "href": "posts/look_matters.html#link-to-paper",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/ml_for_macro.html#presentation-slides",
-    "href": "posts/ml_for_macro.html#presentation-slides",
-    "title": "How is machine learning useful for macroeconomic forecasting?",
+    "objectID": "posts/look_matters.html#presentation-slides",
+    "href": "posts/look_matters.html#presentation-slides",
+    "title": "Do looks matter for an academic career in economics?",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nSlides"
   },
@@ -210,6 +161,48 @@
     "text": "Presentation Slides\nPresentation Slides"
   },
   {
+    "objectID": "posts/visual_inference_RDD.html",
+    "href": "posts/visual_inference_RDD.html",
+    "title": "Visual Inference and Graphical Representation in RDDs",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "posts/visual_inference_RDD.html#link-to-paper",
+    "href": "posts/visual_inference_RDD.html#link-to-paper",
+    "title": "Visual Inference and Graphical Representation in RDDs",
+    "section": "",
+    "text": "Paper"
+  },
+  {
+    "objectID": "posts/visual_inference_RDD.html#presentation-slides",
+    "href": "posts/visual_inference_RDD.html#presentation-slides",
+    "title": "Visual Inference and Graphical Representation in RDDs",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nSlides"
+  },
+  {
+    "objectID": "posts/platforms_algorithms.html",
+    "href": "posts/platforms_algorithms.html",
+    "title": "Platform design when sellers use pricing algorithms",
+    "section": "",
+    "text": "Platform design when sellers use pricing algorithms (LINK)"
+  },
+  {
+    "objectID": "posts/platforms_algorithms.html#link-to-paper",
+    "href": "posts/platforms_algorithms.html#link-to-paper",
+    "title": "Platform design when sellers use pricing algorithms",
+    "section": "",
+    "text": "Platform design when sellers use pricing algorithms (LINK)"
+  },
+  {
+    "objectID": "posts/platforms_algorithms.html#presentation-slides",
+    "href": "posts/platforms_algorithms.html#presentation-slides",
+    "title": "Platform design when sellers use pricing algorithms",
+    "section": "Presentation Slides",
+    "text": "Presentation Slides\nPresentation Slides"
+  },
+  {
     "objectID": "posts/QVAR.html",
     "href": "posts/QVAR.html",
     "title": "Forecasting and stress testing with quantile vector autoregression",
@@ -231,24 +224,38 @@
     "text": "Presentation Slides\nLINK"
   },
   {
-    "objectID": "posts/visual_inference_RDD.html",
-    "href": "posts/visual_inference_RDD.html",
-    "title": "Visual Inference and Graphical Representation in RDDs",
+    "objectID": "posts/ml_for_macro.html",
+    "href": "posts/ml_for_macro.html",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/visual_inference_RDD.html#link-to-paper",
-    "href": "posts/visual_inference_RDD.html#link-to-paper",
-    "title": "Visual Inference and Graphical Representation in RDDs",
+    "objectID": "posts/ml_for_macro.html#link-to-paper",
+    "href": "posts/ml_for_macro.html#link-to-paper",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "",
     "text": "Paper"
   },
   {
-    "objectID": "posts/visual_inference_RDD.html#presentation-slides",
-    "href": "posts/visual_inference_RDD.html#presentation-slides",
-    "title": "Visual Inference and Graphical Representation in RDDs",
+    "objectID": "posts/ml_for_macro.html#presentation-slides",
+    "href": "posts/ml_for_macro.html#presentation-slides",
+    "title": "How is machine learning useful for macroeconomic forecasting?",
     "section": "Presentation Slides",
     "text": "Presentation Slides\nSlides"
+  },
+  {
+    "objectID": "sessions.html",
+    "href": "sessions.html",
+    "title": "Sessions",
+    "section": "",
+    "text": "1st Nov 2024 - Magness, P.W. and Makovi, M. (2023), The Mainstreaming of Marx: Measuring the Effect of the Russian Revolution on Karl Marx�s Influence, The Journal of political economy"
+  },
+  {
+    "objectID": "sessions.html#previous-sessions",
+    "href": "sessions.html#previous-sessions",
+    "title": "Sessions",
+    "section": "Previous Sessions",
+    "text": "Previous Sessions"
   }
 ]
