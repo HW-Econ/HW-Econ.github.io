@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\_site"
   ],
-  "SelectedNode": "\\posts",
+  "SelectedNode": "\\index.qmd",
   "PreviewInSolutionExplorer": false
 }
