@@ -9,7 +9,7 @@ title: "2024 Autumn Schedule"
 | 1st Nov 2024 | [Magness, P.W. and Makovi, M. (2023), The Mainstreaming of Marx: Measuring the Effect of the Russian Revolution on Karl Marx&apos;s Influence, The Journal of political economy](https://doi.org/10.1086/722933)| Javid   |
 | 15th Nov 2024 | [Jens Ludwig, Sendhil Mullainathan (2024), Machine Learning as a Tool for Hypothesis Generation, The Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjad055) | Haoyang   |
 | 22nd Nov 2024 | [Ashesh Rambachan (2024), Identifying Prediction Mistakes in Observational Data, The Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjae013)| Joe   |
-| 6th Dec 2024  | [Jonah M Rexer (2022) The Brides of Boko Haram: Economic Shocks, Marriage Practices, and Insurgency in Nigeria, The Economic Journal](https://doi.org/10.1093/ej/ueac003)| George  |
+| 6th Dec 2024  | [Arthi, Beach & Hanlon (2022) Recessions, Mortality, and Migration Bias: Evidence from the Lancashire Cotton Famine](https://www.aeaweb.org/articles?id=10.1257/app.20190131)| George  |
 | 20th Dec 2024 | [Chen and Roth (2023). Logs with Zeros? Some Problems and Solutions. The Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjad054) | Carlos   |
 
 
