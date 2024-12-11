@@ -10,7 +10,7 @@ title: "2024 Autumn Schedule"
 | 15th Nov 2024 | [Jens Ludwig, Sendhil Mullainathan (2024), Machine Learning as a Tool for Hypothesis Generation, The Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjad055) | Haoyang   |
 | 22nd Nov 2024 | [Ashesh Rambachan (2024), Identifying Prediction Mistakes in Observational Data, The Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjae013)| Joe   |
 | 6th Dec 2024  | [Arthi, Beach & Hanlon (2022) Recessions, Mortality, and Migration Bias: Evidence from the Lancashire Cotton Famine](https://www.aeaweb.org/articles?id=10.1257/app.20190131)| George  |
-| 20th Dec 2024 | [Chen and Roth (2023). Logs with Zeros? Some Problems and Solutions. The Quarterly Journal of Economics](https://doi.org/10.1093/qje/qjad054) | Carlos   |
+| 20th Dec 2024 | [Sviatschi, M.M. (2022), Making a NARCO: Childhood Exposure to Illegal Labor Markets and Criminal Life Paths. Econometrica, 90](hhttps://www.econometricsociety.org/publications/econometrica/2022/07/01/making-narco-childhood-exposure-illegal-labor-markets-and) | Carlos   |
 
 
 ## Location and time
