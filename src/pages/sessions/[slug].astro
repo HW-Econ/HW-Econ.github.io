@@ -1,0 +1,123 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../components/Layout.astro';
+import SessionMeta from '../../components/SessionMeta.astro';
+import AddToCalendar from '../../components/AddToCalendar.astro';
+
+export async function getStaticPaths() {
+  const sessions = await getCollection('sessions');
+  return sessions.map(session => ({
+    params: { slug: session.slug },
+    props: { session },
+  }));
+}
+
+const { session } = Astro.props;
+const { Content } = await session.render();
+const { title, speaker, affiliation, links, feedback_wanted } = session.data;
+---
+
+<Layout title={title}>
+  <article class="session-detail">
+    <header>
+      <h1>{title}</h1>
+      <div class="speaker-block">
+        <span class="speaker-name">{speaker}</span>
+        {affiliation && <span class="affiliation"> — {affiliation}</span>}
+      </div>
+      <SessionMeta session={session} />
+      <AddToCalendar session={session} />
+    </header>
+
+    <div class="content-body">
+      <Content />
+    </div>
+
+    {links && Object.keys(links).length > 0 && (
+      <section class="links-section">
+        <h3>Resources</h3>
+        <div class="links-grid">
+          {Object.entries(links).map(([key, url]) => (
+            <a href={url} target="_blank" rel="noopener noreferrer" class="resource-link">
+              {key.charAt(0).toUpperCase() + key.slice(1)}
+            </a>
+          ))}
+        </div>
+      </section>
+    )}
+
+    {feedback_wanted && feedback_wanted.length > 0 && (
+      <section class="feedback-section">
+        <h3>Feedback Wanted On:</h3>
+        <ul class="feedback-list">
+          {feedback_wanted.map(item => (
+            <li>{item}</li>
+          ))}
+        </ul>
+      </section>
+    )}
+
+    <div class="actions">
+      <a href="/schedule" class="back-link">← Back to Schedule</a>
+    </div>
+  </article>
+</Layout>
+
+<style>
+  .session-detail {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid var(--text-color);
+    padding-bottom: 1rem;
+  }
+
+  .speaker-block {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-family: var(--font-heading);
+  }
+
+  .content-body {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 2rem;
+  }
+
+  .links-section, .feedback-section {
+    margin-top: 2rem;
+    padding: 1rem;
+    background: rgba(0,0,0,0.03);
+    border-radius: 4px;
+  }
+
+  .links-grid {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .resource-link {
+    background: var(--accent-color);
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    border-bottom: none;
+  }
+
+  .resource-link:hover {
+    background: #1a5276;
+  }
+
+  .feedback-list {
+    list-style-type: circle;
+    padding-left: 1.5rem;
+  }
+
+  .actions {
+    margin-top: 3rem;
+  }
+</style>

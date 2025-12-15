@@ -1,0 +1,45 @@
+---
+import '../styles/global.css';
+import NotebookHeader from './NotebookHeader.astro';
+
+interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Early Career Economics Seminar Series" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Patrick+Hand&display=swap" rel="stylesheet">
+    <title>{title} | ECESS</title>
+  </head>
+  <body>
+    <div class="notebook-page">
+      <NotebookHeader />
+      <main>
+        <slot />
+      </main>
+      <footer>
+        <p>&copy; {new Date().getFullYear()} Heriot-Watt Economics. <a href="/about">About</a></p>
+      </footer>
+    </div>
+  </body>
+</html>
+
+<style>
+  footer {
+    margin-top: 4rem;
+    padding-top: 1rem;
+    border-top: 1px solid var(--text-color);
+    font-size: 0.9rem;
+    opacity: 0.8;
+  }
+</style>

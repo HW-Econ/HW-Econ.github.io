@@ -1,0 +1,138 @@
+:root {
+  --paper-color: #fdfbf7;
+  --text-color: #2c3e50;
+  --accent-color: #2980b9;
+  --margin-line-color: #e74c3c;
+  --grid-line-color: #ecf0f1;
+  --font-body: 'Inter', system-ui, sans-serif;
+  --font-heading: 'Patrick Hand', cursive, sans-serif;
+  /* Fallback to cursive if not loaded */
+}
+
+html {
+  background-color: #e0e0e0;
+  /* Desk background */
+  font-family: var(--font-body);
+  color: var(--text-color);
+}
+
+body {
+  margin: 0;
+  padding: 2rem;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+.notebook-page {
+  background-color: var(--paper-color);
+  width: 100%;
+  max-width: 900px;
+  min-height: 90vh;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+  position: relative;
+  padding: 2rem 4rem 2rem 6rem;
+  /* Left padding for margin */
+  background-image:
+    linear-gradient(var(--grid-line-color) 1px, transparent 1px);
+  background-size: 100% 2rem;
+  /* Line height */
+  line-height: 2rem;
+  /* Align text to lines */
+}
+
+/* The red margin line */
+.notebook-page::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 4rem;
+  width: 2px;
+  background-color: var(--margin-line-color);
+  opacity: 0.6;
+}
+
+/* Hole punches */
+.notebook-page::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 1.5rem;
+  width: 1rem;
+  background-image: radial-gradient(circle, #e0e0e0 40%, transparent 45%);
+  background-size: 100% 4rem;
+  /* Spacing of holes */
+  background-repeat: repeat-y;
+  background-position: 0 2rem;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading);
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2.5rem;
+  color: var(--accent-color);
+  border-bottom: 2px solid var(--text-color);
+  display: inline-block;
+  transform: rotate(-1deg);
+}
+
+a {
+  color: var(--accent-color);
+  text-decoration: none;
+  border-bottom: 1px dashed currentColor;
+}
+
+a:hover {
+  border-bottom-style: solid;
+}
+
+/* Utility classes */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 0;
+  }
+
+  .notebook-page {
+    min-height: 100vh;
+    padding: 1rem 1rem 1rem 3rem;
+    /* Reduced left padding */
+    background-size: 100% 1.5rem;
+    /* Smaller lines */
+    line-height: 1.5rem;
+  }
+
+  .notebook-page::before {
+    left: 2rem;
+    /* Move margin line */
+  }
+
+  .notebook-page::after {
+    left: 0.5rem;
+    /* Move holes */
+    background-size: 100% 3rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+}

@@ -1,0 +1,80 @@
+---
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  session: CollectionEntry<'sessions'>;
+}
+
+const { session } = Astro.props;
+const { date, start, end, location, series, tags } = session.data;
+
+const dateString = date.toLocaleDateString('en-GB', {
+  weekday: 'short',
+  day: 'numeric',
+  month: 'short',
+});
+---
+
+<div class="session-meta">
+  <div class="meta-row">
+    <span class="meta-item date-time">
+      <strong>📅 {dateString}</strong> • {start} - {end}
+    </span>
+    {location && (
+      <span class="meta-item location">
+        📍 {location}
+      </span>
+    )}
+  </div>
+  
+  <div class="meta-row second-row">
+    {series && <span class="series-badge">{series}</span>}
+    {tags && tags.length > 0 && (
+      <div class="tags">
+        {tags.map(tag => <span class="tag">#{tag}</span>)}
+      </div>
+    )}
+  </div>
+</div>
+
+<style>
+  .session-meta {
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 0.5rem;
+  }
+
+  .meta-row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
+    margin-bottom: 0.3rem;
+  }
+
+  .series-badge {
+    background: var(--text-color);
+    color: var(--paper-color);
+    padding: 0.1rem 0.4rem;
+    border-radius: 2px;
+    font-weight: bold;
+    font-size: 0.8rem;
+    transform: rotate(-1deg);
+  }
+
+  .tags {
+    display: flex;
+    gap: 0.5rem;
+  }
+
+  .tag {
+    background: rgba(255, 255, 0, 0.2); /* Highlighter yellow */
+    padding: 0 0.2rem;
+    border-radius: 2px;
+  }
+
+  .tag:hover {
+    background: rgba(255, 255, 0, 0.5);
+  }
+</style>

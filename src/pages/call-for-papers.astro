@@ -1,0 +1,164 @@
+---
+import Layout from '../components/Layout.astro';
+---
+
+<Layout title="Call for Papers">
+  <article class="cfp-content">
+    <h1>Call for Papers</h1>
+    <p class="subtitle">Early Career Economics Seminar Series (ECESS)</p>
+
+    <section class="intro">
+      <p>
+        In January 2026, we (Heriot-Watt PhD students) will launch a new biweekly seminar series.
+        The goal of this series is to create a low-stakes and accessible space for researchers to present their work, network with peers, and reconnect with alumni.
+      </p>
+      <p>
+        We want this to be a space where you can test ideas and get in a first run-through in public as well as encouraging more socialising. To this end we are imposing two policies:
+      </p>
+      <ul class="policies">
+        <li><strong>Hold Questions:</strong> Unlike standard economics seminars, audience members will be asked to hold all questions until the end.</li>
+        <li><strong>Social Focus:</strong> An aim for Monday afternoons, with the specific intention of heading to Geordies for a drink and a chat immediately afterwards.</li>
+      </ul>
+    </section>
+
+    <section class="target-audience">
+      <h2>Who Should Apply?</h2>
+      <p>We specifically encourage applications from:</p>
+      <ul>
+        <li>Current PhD students (at any stage)</li>
+        <li>Recent alumni and Industry Post-PhDs</li>
+        <li>Early Career Researchers</li>
+        <li>Visiting peers from other universities</li>
+      </ul>
+    </section>
+
+    <section class="formats">
+      <h2>Formats</h2>
+      <div class="format-grid">
+        <div class="format-card">
+          <h3>1. Short Form</h3>
+          <p><strong>Time:</strong> 15–20 minutes (+ discussion)</p>
+          <p><strong>Purpose:</strong> Early-stage ideas, research proposals, or getting feedback on a specific puzzle you are trying to solve.</p>
+        </div>
+        <div class="format-card">
+          <h3>2. Long Form</h3>
+          <p><strong>Time:</strong> 45–60 minutes (+ 15 mins Q&A)</p>
+          <p><strong>Purpose:</strong> Ideal for polishing a completed paper, practicing a job talk, or presenting a full chapter.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="apply">
+      <h2>How to Apply</h2>
+      <div class="apply-box">
+        <p>We are currently filling slots for the coming second semester (starting Jan 5th).</p>
+        <p>If you are interested in presenting, please reply to <a href="mailto:gjm2004@hw.ac.uk">gjm2004@hw.ac.uk</a> with:</p>
+        <ul class="checklist">
+          <li>Your preferred format (Short or Long)</li>
+          <li>A rough title or topic (abstract even better)</li>
+          <li>Your preferred dates in January/February/March</li>
+        </ul>
+        <p class="sign-off">
+          Best regards,<br>
+          Heriot-Watt ECESS Organisers
+        </p>
+      </div>
+    </section>
+  </article>
+</Layout>
+
+<style>
+  .cfp-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .subtitle {
+    font-size: 1.3rem;
+    color: #666;
+    margin-bottom: 2rem;
+    font-style: italic;
+  }
+
+  .intro {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+
+  .policies {
+    background: rgba(255, 255, 255, 0.5);
+    padding: 1.5rem 2rem;
+    border-left: 4px solid var(--accent-color);
+    margin: 1.5rem 0;
+  }
+
+  .policies li {
+    margin-bottom: 0.5rem;
+  }
+
+  .format-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin: 1.5rem 0;
+  }
+
+  .format-card {
+    background: #fff;
+    padding: 1.5rem;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    transform: rotate(-1deg);
+  }
+
+  .format-card:nth-child(2) {
+    transform: rotate(1deg);
+  }
+
+  .format-card h3 {
+    color: var(--accent-color);
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 0.5rem;
+  }
+
+  .apply-box {
+    background: #f9f9f9;
+    padding: 2rem;
+    border: 2px dashed var(--text-color);
+    position: relative;
+  }
+
+  .apply-box::before {
+    content: '✉️';
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    font-size: 2rem;
+    background: var(--paper-color);
+    padding: 0 0.5rem;
+  }
+
+  .checklist {
+    list-style-type: none;
+    padding-left: 0;
+  }
+
+  .checklist li::before {
+    content: '✓ ';
+    color: green;
+    font-weight: bold;
+  }
+
+  .sign-off {
+    margin-top: 2rem;
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+  }
+
+  @media (max-width: 600px) {
+    .format-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+</style>

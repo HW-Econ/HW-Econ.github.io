@@ -1,0 +1,55 @@
+---
+import { generateICS } from '../utils/ics';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  session: CollectionEntry<'sessions'>;
+}
+
+const { session } = Astro.props;
+const { title, speaker, date, start, end, location } = session.data;
+
+// Parse start/end times
+const [startH, startM] = start.split(':').map(Number);
+const [endH, endM] = end.split(':').map(Number);
+
+const startDate = new Date(date);
+startDate.setHours(startH, startM);
+
+const endDate = new Date(date);
+endDate.setHours(endH, endM);
+
+const icsContent = generateICS({
+  title: `${title} - ${speaker}`,
+  description: `ECESS Seminar by ${speaker}. See ${Astro.site}sessions/${session.slug} for details.`,
+  location: location,
+  start: startDate,
+  end: endDate,
+  url: `${Astro.site}sessions/${session.slug}`,
+});
+
+const href = `data:text/calendar;charset=utf8,${encodeURIComponent(icsContent)}`;
+const filename = `${session.slug}.ics`;
+---
+
+<a href={href} download={filename} class="add-to-calendar">
+  📅 Add to Calendar
+</a>
+
+<style>
+  .add-to-calendar {
+    display: inline-block;
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background 0.2s;
+  }
+
+  .add-to-calendar:hover {
+    background: #eee;
+  }
+</style>

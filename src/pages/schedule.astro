@@ -1,0 +1,299 @@
+---
+import Layout from '../components/Layout.astro';
+import SessionCard from '../components/SessionCard.astro';
+import { getCollection } from 'astro:content';
+
+const allSessions = await getCollection('sessions', ({ data }) => {
+  return import.meta.env.PROD ? data.draft !== true : true;
+});
+
+// Sort by date descending for the list (newest first) or ascending?
+// Usually upcoming is ascending (soonest first), past is descending (most recent first).
+// Let's sort ascending for now, and maybe reverse via JS or just keep it ascending.
+// Actually, for a single list that toggles, it's tricky.
+// Let's sort ascending (chronological).
+const sortedSessions = allSessions.sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
+
+const allTags = [...new Set(allSessions.flatMap(s => s.data.tags || []))].sort();
+const allSeries = [...new Set(allSessions.map(s => s.data.series).filter(Boolean))].sort();
+
+const now = new Date();
+---
+
+<Layout title="Schedule">
+  <h1>Schedule</h1>
+  
+  <div class="controls-area">
+    <div class="search-bar">
+      <input type="text" id="search-input" placeholder="Search title, speaker, abstract..." />
+    </div>
+    
+    <div class="filters">
+      <div class="filter-group">
+        <label>View:</label>
+        <div class="toggle-group">
+          <button class="filter-btn active" data-filter="view" data-value="upcoming">Upcoming</button>
+          <button class="filter-btn" data-filter="view" data-value="past">Past</button>
+          <button class="filter-btn" data-filter="view" data-value="all">All</button>
+        </div>
+      </div>
+
+      <div class="filter-group">
+        <label>Series:</label>
+        <select id="series-filter">
+          <option value="">All Series</option>
+          {allSeries.map(s => <option value={s}>{s}</option>)}
+        </select>
+      </div>
+
+      <div class="filter-group">
+        <label>Tags:</label>
+        <div class="tags-filter">
+          {allTags.map(tag => (
+            <button class="tag-btn" data-value={tag}>#{tag}</button>
+          ))}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="sessions-container">
+    {sortedSessions.map(session => {
+      const [hours, minutes] = session.data.end.split(':').map(Number);
+      const sessionEnd = new Date(session.data.date);
+      sessionEnd.setHours(hours, minutes);
+      const isPast = sessionEnd < now;
+      
+      return (
+        <div 
+          class="session-wrapper"
+          data-status={isPast ? 'past' : 'upcoming'}
+          data-series={session.data.series || ''}
+          data-tags={JSON.stringify(session.data.tags || [])}
+          data-search={`${session.data.title} ${session.data.speaker} ${session.body}`.toLowerCase()}
+        >
+          <SessionCard session={session} />
+        </div>
+      );
+    })}
+    <div id="no-results" class="hidden">
+      <p>No sessions match your filters.</p>
+    </div>
+  </div>
+
+  <script>
+    // Client-side filtering logic
+    function initFilters() {
+      const container = document.getElementById('sessions-container');
+      const items = document.querySelectorAll('.session-wrapper');
+      const searchInput = document.getElementById('search-input') as HTMLInputElement;
+      const seriesSelect = document.getElementById('series-filter') as HTMLSelectElement;
+      const viewBtns = document.querySelectorAll('[data-filter="view"]');
+      const tagBtns = document.querySelectorAll('.tag-btn');
+      const noResults = document.getElementById('no-results');
+
+      let state = {
+        view: 'upcoming', // upcoming, past, all
+        series: '',
+        tags: [] as string[],
+        search: ''
+      };
+
+      // Check URL params on load
+      const params = new URLSearchParams(window.location.search);
+      if (params.has('view')) state.view = params.get('view') || 'upcoming';
+      if (params.has('series')) state.series = params.get('series') || '';
+      if (params.has('q')) state.search = params.get('q') || '';
+      if (params.has('tags')) state.tags = params.get('tags')?.split(',') || [];
+
+      // Update UI to match state
+      updateUI();
+      filterItems();
+
+      // Event Listeners
+      searchInput?.addEventListener('input', (e) => {
+        state.search = (e.target as HTMLInputElement).value.toLowerCase();
+        updateURL();
+        filterItems();
+      });
+
+      seriesSelect?.addEventListener('change', (e) => {
+        state.series = (e.target as HTMLSelectElement).value;
+        updateURL();
+        filterItems();
+      });
+
+      viewBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          state.view = btn.getAttribute('data-value') || 'all';
+          updateUI();
+          updateURL();
+          filterItems();
+        });
+      });
+
+      tagBtns.forEach(btn => {
+        btn.addEventListener('click', () => {
+          const tag = btn.getAttribute('data-value');
+          if (!tag) return;
+          
+          if (state.tags.includes(tag)) {
+            state.tags = state.tags.filter(t => t !== tag);
+          } else {
+            state.tags.push(tag);
+          }
+          updateUI();
+          updateURL();
+          filterItems();
+        });
+      });
+
+      function updateUI() {
+        // Update view buttons
+        viewBtns.forEach(btn => {
+          if (btn.getAttribute('data-value') === state.view) {
+            btn.classList.add('active');
+          } else {
+            btn.classList.remove('active');
+          }
+        });
+
+        // Update tag buttons
+        tagBtns.forEach(btn => {
+          const tag = btn.getAttribute('data-value');
+          if (tag && state.tags.includes(tag)) {
+            btn.classList.add('active');
+          } else {
+            btn.classList.remove('active');
+          }
+        });
+
+        // Update inputs
+        if (searchInput) searchInput.value = state.search;
+        if (seriesSelect) seriesSelect.value = state.series;
+      }
+
+      function updateURL() {
+        const url = new URL(window.location.href);
+        if (state.view !== 'upcoming') url.searchParams.set('view', state.view);
+        else url.searchParams.delete('view');
+
+        if (state.series) url.searchParams.set('series', state.series);
+        else url.searchParams.delete('series');
+
+        if (state.search) url.searchParams.set('q', state.search);
+        else url.searchParams.delete('q');
+
+        if (state.tags.length > 0) url.searchParams.set('tags', state.tags.join(','));
+        else url.searchParams.delete('tags');
+
+        window.history.replaceState({}, '', url);
+      }
+
+      function filterItems() {
+        let visibleCount = 0;
+
+        items.forEach(item => {
+          if (!(item instanceof HTMLElement)) return;
+
+          const status = item.dataset.status;
+          const series = item.dataset.series;
+          const itemTags = JSON.parse(item.dataset.tags || '[]');
+          const searchText = item.dataset.search || '';
+
+          let isVisible = true;
+
+          // View filter
+          if (state.view === 'upcoming' && status !== 'upcoming') isVisible = false;
+          if (state.view === 'past' && status !== 'past') isVisible = false;
+
+          // Series filter
+          if (state.series && series !== state.series) isVisible = false;
+
+          // Tags filter (AND logic? or OR? Let's do OR for now, or AND. Usually AND is stricter. Let's do OR if multiple selected? No, AND is standard for "filtering down")
+          // Let's do "Must have at least one of the selected tags" (OR) or "Must have all" (AND).
+          // Let's do AND for now.
+          if (state.tags.length > 0) {
+            const hasAllTags = state.tags.every(t => itemTags.includes(t));
+            if (!hasAllTags) isVisible = false;
+          }
+
+          // Search filter
+          if (state.search && !searchText.includes(state.search)) isVisible = false;
+
+          if (isVisible) {
+            item.style.display = 'block';
+            visibleCount++;
+          } else {
+            item.style.display = 'none';
+          }
+        });
+
+        if (noResults) {
+          noResults.classList.toggle('hidden', visibleCount > 0);
+        }
+      }
+    }
+
+    // Run on load
+    initFilters();
+    // Re-run on view transitions if using View Transitions API (Astro default sometimes)
+    document.addEventListener('astro:page-load', initFilters);
+  </script>
+</Layout>
+
+<style>
+  .controls-area {
+    background: rgba(255,255,255,0.5);
+    padding: 1rem;
+    border: 1px solid var(--text-color);
+    margin-bottom: 2rem;
+    border-radius: 4px;
+  }
+
+  .filter-group {
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+  }
+
+  .filter-group label {
+    font-weight: bold;
+    min-width: 60px;
+  }
+
+  .search-bar input {
+    width: 100%;
+    padding: 0.5rem;
+    font-family: var(--font-body);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .filter-btn, .tag-btn {
+    background: transparent;
+    border: 1px solid #aaa;
+    padding: 0.2rem 0.6rem;
+    border-radius: 1rem;
+    cursor: pointer;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    transition: all 0.2s;
+  }
+
+  .filter-btn:hover, .tag-btn:hover {
+    background: #eee;
+  }
+
+  .filter-btn.active, .tag-btn.active {
+    background: var(--accent-color);
+    color: white;
+    border-color: var(--accent-color);
+  }
+
+  .hidden {
+    display: none;
+  }
+</style>

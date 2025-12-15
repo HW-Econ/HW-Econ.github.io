@@ -1,0 +1,89 @@
+---
+const today = new Date();
+const dateString = today.toLocaleDateString('en-GB', { 
+  weekday: 'short', 
+  year: 'numeric', 
+  month: 'short', 
+  day: 'numeric' 
+});
+---
+
+<header class="notebook-header">
+  <div class="stamp">
+    <span class="label">Date:</span>
+    <span class="value">{dateString}</span>
+  </div>
+  <nav>
+    <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
+    <a href="/schedule" class={Astro.url.pathname.startsWith('/schedule') ? 'active' : ''}>Schedule</a>
+    <a href="/call-for-papers" class={Astro.url.pathname.startsWith('/call-for-papers') ? 'active' : ''}>Call for Papers</a>
+    <a href="/archive" class={Astro.url.pathname.startsWith('/archive') ? 'active' : ''}>Archive</a>
+  </nav>
+</header>
+
+<style>
+  .notebook-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-bottom: 2rem;
+    border-bottom: 2px double var(--text-color);
+    padding-bottom: 0.5rem;
+  }
+
+  .stamp {
+    font-family: 'Courier New', Courier, monospace;
+    border: 1px solid var(--text-color);
+    padding: 0.2rem 0.5rem;
+    transform: rotate(-2deg);
+    background: rgba(255, 255, 255, 0.5);
+  }
+
+  .label {
+    font-weight: bold;
+    color: #7f8c8d;
+    font-size: 0.8rem;
+    margin-right: 0.5rem;
+  }
+
+  nav {
+    display: flex;
+    gap: 1.5rem;
+  }
+
+  nav a {
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    border: none;
+    position: relative;
+  }
+
+  nav a.active::after {
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: var(--accent-color);
+    border-radius: 2px;
+  }
+
+  @media (max-width: 600px) {
+    .notebook-header {
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+
+    nav {
+      width: 100%;
+      justify-content: space-between;
+      gap: 0;
+    }
+
+    nav a {
+      font-size: 1rem;
+    }
+  }
+</style>

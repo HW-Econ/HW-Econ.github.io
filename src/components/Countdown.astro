@@ -1,0 +1,111 @@
+---
+interface Props {
+  targetDate: Date;
+}
+
+const { targetDate } = Astro.props;
+const targetIso = targetDate.toISOString();
+---
+
+<div class="countdown-timer" data-target={targetIso}>
+  <div class="time-unit">
+    <span class="value" id="days">00</span>
+    <span class="label">Days</span>
+  </div>
+  <div class="separator">:</div>
+  <div class="time-unit">
+    <span class="value" id="hours">00</span>
+    <span class="label">Hrs</span>
+  </div>
+  <div class="separator">:</div>
+  <div class="time-unit">
+    <span class="value" id="minutes">00</span>
+    <span class="label">Mins</span>
+  </div>
+  <div class="separator">:</div>
+  <div class="time-unit">
+    <span class="value" id="seconds">00</span>
+    <span class="label">Secs</span>
+  </div>
+</div>
+
+<script>
+  function updateCountdown() {
+    const timer = document.querySelector('.countdown-timer');
+    if (!timer) return;
+
+    const target = new Date(timer.getAttribute('data-target') || '');
+    const now = new Date();
+    const diff = target.getTime() - now.getTime();
+
+    if (diff <= 0) {
+      timer.innerHTML = '<span class="started">Session Started!</span>';
+      return;
+    }
+
+    const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+
+    const pad = (n: number) => n.toString().padStart(2, '0');
+
+    const els = {
+      days: document.getElementById('days'),
+      hours: document.getElementById('hours'),
+      minutes: document.getElementById('minutes'),
+      seconds: document.getElementById('seconds'),
+    };
+
+    if (els.days) els.days.textContent = pad(days);
+    if (els.hours) els.hours.textContent = pad(hours);
+    if (els.minutes) els.minutes.textContent = pad(minutes);
+    if (els.seconds) els.seconds.textContent = pad(seconds);
+  }
+
+  setInterval(updateCountdown, 1000);
+  updateCountdown();
+</script>
+
+<style>
+  .countdown-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    font-family: 'Courier New', monospace;
+    background: #333;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    display: inline-flex;
+    margin-top: 1rem;
+  }
+
+  .time-unit {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .value {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  .label {
+    font-size: 0.6rem;
+    text-transform: uppercase;
+    color: #aaa;
+  }
+
+  .separator {
+    font-size: 1.5rem;
+    margin-top: -0.8rem;
+  }
+
+  .started {
+    font-weight: bold;
+    color: #4caf50;
+  }
+</style>

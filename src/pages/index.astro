@@ -1,0 +1,160 @@
+---
+import Layout from '../components/Layout.astro';
+import SessionCard from '../components/SessionCard.astro';
+import Countdown from '../components/Countdown.astro';
+import AddToCalendar from '../components/AddToCalendar.astro';
+import { getCollection } from 'astro:content';
+
+const allSessions = await getCollection('sessions', ({ data }) => {
+  return import.meta.env.PROD ? data.draft !== true : true;
+});
+
+const now = new Date();
+const upcomingSessions = allSessions
+  .filter(session => {
+    // Combine date and end time to check if session is past
+    const [hours, minutes] = session.data.end.split(':').map(Number);
+    const sessionEnd = new Date(session.data.date);
+    sessionEnd.setHours(hours, minutes);
+    return sessionEnd > now;
+  })
+  .sort((a, b) => a.data.date.valueOf() - b.data.date.valueOf());
+
+const nextSession = upcomingSessions[0];
+
+const getWeekRange = (d: Date) => {
+  const date = new Date(d);
+  const day = date.getDay(); // 0 (Sun) to 6 (Sat)
+  const diff = date.getDate() - day + (day === 0 ? -6 : 1); // Adjust when day is Sunday
+  const monday = new Date(date.setDate(diff));
+  monday.setHours(0, 0, 0, 0);
+  const sunday = new Date(monday);
+  sunday.setDate(monday.getDate() + 6);
+  sunday.setHours(23, 59, 59, 999);
+  return { start: monday, end: sunday };
+};
+
+const thisWeekRange = getWeekRange(now);
+const thisWeekSessions = upcomingSessions.filter(session => {
+  const d = session.data.date;
+  return d >= thisWeekRange.start && d <= thisWeekRange.end && session.slug !== nextSession?.slug;
+});
+
+// Calculate next session start date object for countdown
+let nextSessionStart: Date | null = null;
+if (nextSession) {
+  const [h, m] = nextSession.data.start.split(':').map(Number);
+  nextSessionStart = new Date(nextSession.data.date);
+  nextSessionStart.setHours(h, m);
+}
+---
+
+<Layout title="Home">
+  <section class="intro">
+    <h1>Heriot-Watt Early Career Economics Seminar Series</h1>
+  </section>
+
+  {nextSession ? (
+    <section class="next-up">
+      <h2>Next Up</h2>
+      <div class="highlight-card">
+        <span class="sticky-note">Don't Miss!</span>
+        <SessionCard session={nextSession} />
+        {nextSessionStart && <Countdown targetDate={nextSessionStart} />}
+        <div style="margin-top: 1rem; text-align: right;">
+          <AddToCalendar session={nextSession} />
+        </div>
+      </div>
+    </section>
+  ) : (
+    <section class="empty-state">
+      <p>No upcoming sessions scheduled. Check the <a href="/archive">archive</a>.</p>
+    </section>
+  )}
+
+  {thisWeekSessions.length > 0 && (
+    <section class="this-week">
+      <h2>Also This Week</h2>
+      <div class="session-list">
+        {thisWeekSessions.map(session => (
+          <SessionCard session={session} />
+        ))}
+      </div>
+    </section>
+  )}
+  
+  <section class="quick-actions">
+    <a href="/schedule" class="action-btn">View Full Schedule</a>
+    <a href="/call-for-papers" class="action-btn secondary">Submit a Paper</a>
+    <!-- Add to calendar placeholder - will be implemented later -->
+  </section>
+</Layout>
+
+<style>
+  .intro {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .subtitle {
+    font-size: 1.2rem;
+    color: #666;
+    font-style: italic;
+  }
+
+  .next-up {
+    margin-bottom: 3rem;
+  }
+
+  .highlight-card {
+    position: relative;
+    background: #fff;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+    transform: rotate(1deg);
+  }
+
+  .sticky-note {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: #ffeb3b;
+    padding: 0.5rem 1rem;
+    font-family: var(--font-heading);
+    box-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+    transform: rotate(5deg);
+    z-index: 1;
+  }
+
+  .quick-actions {
+    margin-top: 3rem;
+    text-align: center;
+    border-top: 2px dashed #ccc;
+    padding-top: 2rem;
+  }
+
+  .action-btn {
+    display: inline-block;
+    padding: 0.5rem 1.5rem;
+    background: var(--text-color);
+    color: #fff;
+    border-radius: 4px;
+    text-decoration: none;
+    font-family: var(--font-heading);
+    font-size: 1.2rem;
+    transition: transform 0.2s;
+  }
+
+  .action-btn:hover {
+    transform: scale(1.05);
+    border-bottom: none;
+  }
+
+  .action-btn.secondary {
+    background: transparent;
+    color: var(--text-color);
+    border: 2px solid var(--text-color);
+    margin-left: 1rem;
+  }
+</style>

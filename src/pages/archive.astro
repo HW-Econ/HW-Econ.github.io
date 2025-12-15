@@ -1,0 +1,15 @@
+---
+import Layout from '../components/Layout.astro';
+---
+
+<Layout title="Archive">
+  <div class="redirect-message">
+    <p>Redirecting to archive view...</p>
+    <script>
+      window.location.href = '/schedule?view=past';
+    </script>
+    <noscript>
+      <p>Please <a href="/schedule?view=past">click here</a> to view the archive.</p>
+    </noscript>
+  </div>
+</Layout>
