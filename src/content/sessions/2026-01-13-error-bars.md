@@ -12,5 +12,6 @@ links:
   slides: "https://example.com/slides"
   paper: "https://example.com/paper"
 feedback_wanted: ["clarity", "positioning"]
+draft: true
 ---
 A short abstract written in Markdown. Keep it friendly and accessible.
