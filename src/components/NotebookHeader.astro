@@ -1,18 +1,7 @@
 ---
-const today = new Date();
-const dateString = today.toLocaleDateString('en-GB', { 
-  weekday: 'short', 
-  year: 'numeric', 
-  month: 'short', 
-  day: 'numeric' 
-});
 ---
 
 <header class="notebook-header">
-  <div class="stamp">
-    <span class="label">Date:</span>
-    <span class="value">{dateString}</span>
-  </div>
   <nav>
     <a href="/" class={Astro.url.pathname === '/' ? 'active' : ''}>Home</a>
     <a href="/schedule" class={Astro.url.pathname.startsWith('/schedule') ? 'active' : ''}>Schedule</a>
@@ -24,26 +13,11 @@ const dateString = today.toLocaleDateString('en-GB', {
 <style>
   .notebook-header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: flex-end;
     margin-bottom: 2rem;
     border-bottom: 2px double var(--text-color);
     padding-bottom: 0.5rem;
-  }
-
-  .stamp {
-    font-family: 'Courier New', Courier, monospace;
-    border: 1px solid var(--text-color);
-    padding: 0.2rem 0.5rem;
-    transform: rotate(-2deg);
-    background: rgba(255, 255, 255, 0.5);
-  }
-
-  .label {
-    font-weight: bold;
-    color: #7f8c8d;
-    font-size: 0.8rem;
-    margin-right: 0.5rem;
   }
 
   nav {
