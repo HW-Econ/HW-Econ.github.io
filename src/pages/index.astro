@@ -3,6 +3,7 @@ import Layout from '../components/Layout.astro';
 import SessionCard from '../components/SessionCard.astro';
 import Countdown from '../components/Countdown.astro';
 import AddToCalendar from '../components/AddToCalendar.astro';
+import SignupBox from '../components/SignupBox.astro';
 import { getCollection } from 'astro:content';
 
 const allSessions = await getCollection('sessions', ({ data }) => {
@@ -88,6 +89,10 @@ if (nextSession) {
     <a href="/call-for-papers" class="action-btn secondary">Submit a Paper</a>
     <!-- Add to calendar placeholder - will be implemented later -->
   </section>
+
+  <section class="signup-section">
+    <SignupBox />
+  </section>
 </Layout>
 
 <style>
@@ -156,5 +161,10 @@ if (nextSession) {
     color: var(--text-color);
     border: 2px solid var(--text-color);
     margin-left: 1rem;
+  }
+
+  .signup-section {
+    margin-top: 3rem;
+    text-align: center;
   }
 </style>

@@ -1,0 +1,92 @@
+---
+// Reusable component for mailing list and WhatsApp group signup
+---
+
+<a href="https://forms.gle/Eyf5ikSCjEApoLBE7" target="_blank" rel="noopener noreferrer" class="signup-box">
+  <div class="signup-content">
+    <h3 class="signup-title">Stay Connected</h3>
+    <p class="signup-description">
+      Join our mailing list and WhatsApp group to receive updates about upcoming sessions, schedule changes, and social events.
+    </p>
+    <p class="signup-cta">Sign Up →</p>
+  </div>
+</a>
+
+<style>
+  .signup-box {
+    display: inline-block;
+    background: #f9f9f9;
+    padding: 2rem;
+    border: 2px dashed var(--text-color);
+    position: relative;
+    text-decoration: none;
+    color: var(--text-color);
+    transition: all 0.2s ease;
+    margin: 1.5rem 0;
+  }
+
+  .signup-box::before {
+    content: '📧';
+    position: absolute;
+    top: -15px;
+    left: 20px;
+    font-size: 2rem;
+    background: var(--paper-color);
+    padding: 0 0.5rem;
+  }
+
+  .signup-box:hover {
+    transform: scale(1.02);
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+    background: #f5f5f5;
+    border-bottom: none;
+  }
+
+  .signup-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .signup-title {
+    font-family: var(--font-heading);
+    font-size: 1.3rem;
+    margin: 0 0 0.5rem 0;
+    color: var(--accent-color);
+  }
+
+  .signup-description {
+    font-size: 0.95rem;
+    line-height: 1.5;
+    margin: 0;
+    color: #555;
+  }
+
+  .signup-cta {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: var(--accent-color);
+    margin: 0.5rem 0 0 0;
+    font-weight: bold;
+  }
+
+  @media (max-width: 600px) {
+    .signup-box {
+      padding: 1rem;
+      display: block;
+    }
+
+    .signup-box::before {
+      font-size: 1.5rem;
+      top: -12px;
+    }
+
+    .signup-title {
+      font-size: 1.1rem;
+    }
+
+    .signup-description {
+      font-size: 0.9rem;
+    }
+  }
+</style>

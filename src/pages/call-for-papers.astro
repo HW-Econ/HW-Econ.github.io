@@ -1,5 +1,6 @@
 ---
 import Layout from '../components/Layout.astro';
+import SignupBox from '../components/SignupBox.astro';
 ---
 
 <Layout title="Call for Papers">
@@ -63,6 +64,11 @@ import Layout from '../components/Layout.astro';
           Heriot-Watt ECESS Organisers
         </p>
       </div>
+
+      <p class="signup-intro">
+        Want to attend without presenting? Join our mailing list and WhatsApp group to stay updated on upcoming sessions.
+      </p>
+      <SignupBox />
     </section>
   </article>
 </Layout>
@@ -154,6 +160,13 @@ import Layout from '../components/Layout.astro';
     margin-top: 2rem;
     font-family: var(--font-heading);
     font-size: 1.2rem;
+  }
+
+  .signup-intro {
+    margin-top: 3rem;
+    font-size: 1.1rem;
+    color: #555;
+    text-align: center;
   }
 
   @media (max-width: 600px) {
