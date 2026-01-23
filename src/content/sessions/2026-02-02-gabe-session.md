@@ -2,7 +2,7 @@
 title: "The Social Network of MPs"
 speaker: "Gabe Han"
 affiliation: "University of Stirling"
-date: 2026-01-26
+date: 2026-02-02
 start: "14:00"
 end: "15:00"
 location: "Meet at Edinburgh Business School (EBS) lobby"
