@@ -1,5 +1,5 @@
 ---
-title: "TBC"
+title: "A Granular Approach to Density Forecasting Euro Area Inflation"
 speaker: "Petra Greso"
 affiliation: "University of Strathclyde"
 date: 2026-03-02
