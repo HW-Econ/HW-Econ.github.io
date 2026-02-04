@@ -1,7 +1,7 @@
 # ECESS Lab Notebook
 
 This is the source code for the Early Career Economics Seminar Series (ECESS) website, built with [Astro](https://astro.build).
-
+s
 ## 📝 How to Add a Session
 
 1. Create a new Markdown file in `src/content/sessions/`.
